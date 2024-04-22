@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+.mode{
+    #left{
+        background-color: black;
+        color: white;
+    }
+    #left a,i{
+        color: white;
+    }
+    #left a:hover{
+        color: red;
+    }
+    #left #Payment{
+        color: white;
+    }
+    #hero{
+        background-color: black;
+        color: white;
+    }
+    
+    #hero p{
+        color: white;
+    }
+    #hero #navbar #first #welc{
+        color: white;
+    }
+    #hero #navbar #second i{
+        color: #24315E;
+        background-color: white;
+    }
+    #hero #navbar #second #mode i{
+        color: #24315E;
+        background-color: white;
+    }
+    #hero #navbar #third button{
+        background-color: green;
+        border-color: green;
+    }
+    #hero #navbar #Time{
+        background-color: white;
+        color: #24315E;
+    }
+    #hero #navbar #Time p{
+        color: black;
+    }
+}
+
+#main {
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#left {
+    height: 100vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* gap: 25px; */
+    /* border: 2px solid; */
+}
+#left p{
+    padding: 40px 25px;
+    font-weight: bold;
+    color: #24315E;
+}
+#left #admin {
+    font-size: 25px;
+    padding: 0px 45px;
+    color: #24315E;
+    border: none;
+}
+
+
+
+#left a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+    color: #4444449e;
+    /* border: 1px solid; */
+    width: 100%;
+    padding: 15px 20px;
+}
+#left a:hover{
+    background-color: aliceblue;
+}
+#left #insert{
+    background-color: aliceblue;
+    color: #24315E;
+}
+#left a i {
+    padding: 0px 5px;
+    text-align: left;
+}
+
+#left a:hover {
+    color: #24315E;
+}
+
+#left #premium {
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#left #premium #box {
+    height: 25vh;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    padding: 10px 0px;
+    gap: 15px;
+    color: #24315E;
+    text-shadow: 3px 3px 5px white;
+    font-weight: bold;
+    background-color: aliceblue;
+    background-image: url('https://media.restless.co.uk/uploads/2022/01/bank-fees-explained.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 5px #24315E;
+}
+
+#left #premium #box #btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #24315E;
+    font-weight: bold;
+    color: white;
+    background-color: #24315E;
+    cursor: pointer;
+}
+
+#left #premium #box #btn:hover {
+    background-color: white;
+    color: #24315E;
+}
+
+#hero {
+    height: 100vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    /* border: 2px solid; */
+}
+
+#hero #navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#hero #navbar ul {
+    list-style-type: none;
+}
+
+#hero #navbar #first {
+    width: 410px;
+}
+
+#hero #navbar #first #welc {
+    font-size: 25px;
+    font-weight: bold;
+    color: #24315E;
+}
+
+#hero #navbar #second {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero #navbar #Time {
+    text-align: center;
+    width: 160px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #24315E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#hero #navbar #second i {
+    padding: 7px 8px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #24315E;
+}
+#hero #navbar #second #mode i{
+    padding: 8px 8px;
+    color: #24315E;
+}
+
+#hero #navbar #second a {
+    text-decoration: none;
+}
+
+#hero #navbar #third input {
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 1px #4444449e;
+    outline: none;
+}
+#hero #navbar #third button{
+    padding: 9px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #24315E;
+    cursor: pointer;
+    background-color: #24315E;
+    box-shadow: 0px 0px 1px;
+}
+#hero #navbar #third button i{
+    color: white;
+}
+
+#hero #main-content {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+table th{
+    padding: 10px;
+}
+table th,td{
+    border: 1px solid;
+    text-align: justify;
+    font-weight: bold;
+}
+table th{
+    background-color: gold;
+    border: 1px solid gold;
+    color: #24315E;
+}
+
+table td{
+    background-color: aliceblue;
+    border: 1px solid #24315E;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+table td input{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid aliceblue;
+}
+
+#bottom{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#bottom button{
+    padding: 12px 25px;
+    cursor: pointer;
+    background-color: #24315E;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #24315E;
+}
+#bottom button:hover{
+    background-color: white;
+    color: #24315E;
+}

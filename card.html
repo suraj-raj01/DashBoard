@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="left">
+      <p>ADMIN <br>SURAJ KUMAR</p>
+      <a href="./dash.html"><i class="fa-solid fa-list"></i> Dashboard</a>
+      <a href="./insert.html"><i class="fa-solid fa-table-list"></i> Insert</a>
+      <a href="./table.html"><i class="fa-solid fa-chart-line"></i> Table</a>
+      <a href="./card.html" id="card"><i class="fa-solid fa-credit-card"></i> Card</a>
+      <a href="./team.html"><i class="fa-solid fa-users"></i> Team</a>
+      <div id="premium">
+        <div id="box">
+          <p>Get a Premium Account</p>
+          <button type="button" id="btn">Get Now</button>
+        </div>
+      </div>
+    </div>
+    <div id="hero">
+      <div id="navbar">
+        <ul id="first">
+          <li id="welc">Dashboard</li>
+        </ul>
+        <ul id="Time">
+          <li>
+            <p id="time"></p>
+          </li>
+        </ul>
+        <ul id="second">
+          <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+          <li id="user"><a href="./Form/form.html" target="_blank"><i class="fa-solid fa-user"></i></a></li>
+          <li id="mode" onclick="mode();"><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+        </ul>
+        <ul id="third">
+          <li><input type="text" placeholder=" search..."><button type="button"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+        </ul>
+      </div>
+      <div id="main-content">
+        <div id="main-box1">
+          <div id="box1">
+            <div id="div1">
+              <div id="box">
+                <i class="fa-solid fa-credit-card"></i>
+                <p>Transfer via Card Number</p>
+                <p id="money">$1241</p>
+              </div>
+              <div id="box">
+                <i class="fa-solid fa-chart-simple"></i>
+                <p>Transfer Other Bank</p>
+                <p id="money">$142</p>
+              </div>
+              <div id="box">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <p>Transfer Same Bank</p>
+                <p id="money">$155</p>
+              </div>
+            </div>
+            <div id="div2">
+              <div id="box1">
+                <h2>Reach financial goal faster</h2>
+                <p>Use your payment card around the world with no hidden fees Hold transfer and spend money</p>
+                <button type="button">Learn More</button>
+              </div>
+              <div id="box2">
+                <img src="https://static.qantasloyalty.com/store-static-assets/desktop/1005254_1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div id="box2">
+
+          </div>
+        </div>
+        <div id="main-box2">
+          <div id="box">
+            <h3>Your Transaction</h3>
+            <div id="shoping">
+              <i class="fa-solid fa-lock"></i>
+              <p>Shoping Today <br>Time : 10:24 AM</p>
+              <p id="prize">-$212</p>
+            </div>
+            <div id="movies">
+              <i class="fa-solid fa-film"></i>
+              <p>Movies Show Today <br>Time : 11:23 AM</p>
+              <p id="prize">-$35</p>
+            </div>
+            <div id="steps">
+              <i class="fa-solid fa-burger"></i>
+              <p>Fast Foods Today <br>Time : 5:23 PM</p>
+              <p id="prize">-$30</p>
+            </div>
+          </div>
+          <div id="box">
+            <h3>Your Transfer</h3>
+            <div id="shoping">
+              <i class="fa-solid fa-registered"></i>
+              <p>RAJAN KUMAR <br>Time : 10:24 AM</p>
+              <p id="prize">-$212</p>
+            </div>
+            <div id="movies">
+              <i class="fa-solid fa-circle-h"></i>
+              <p>HARIOM KUMAR <br>Time : 11:23 AM</p>
+              <p id="transfer">+$35</p>
+            </div>
+            <div id="steps">
+              <i class="fa-brands fa-product-hunt"></i>
+              <p>PANKAJ KUMAR <br>Time : 5:23 PM</p>
+              <p id="transfer">+$30</p>
+            </div>
+          </div>
+          <div id="box">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

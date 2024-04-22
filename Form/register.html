@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        body {
+            background-color: aliceblue;
+        }
+
+        form {
+            margin: 150px auto;
+            height: 450px;
+            width: 500px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0px 0px 2px;
+            border-radius: 10px;
+        }
+
+        form label {
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        form input {
+            width: 90%;
+            padding: 10px 0px;
+            border: 1px solid aliceblue;
+            background-color: aliceblue;
+            outline: none;
+            border-bottom-color: gray;
+        }
+
+        form input::placeholder {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        form #submit {
+            padding: 15px;
+            border-radius: 50px;
+            background-color: #24315E;
+            border: 1px solid #24315E;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        form #submit:hover{
+            background-color: white;
+            color: #24315E;
+            border: 1px solid;
+        }
+
+        form a {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            color: #24315E;
+        }
+    </style>
+</head>
+
+<body>
+    <form onsubmit="return register();">
+        <label for="">Registeration Form</label>
+        <input type="text" id="name" required placeholder="full name">
+        <input type="email" id="email" required placeholder="email">
+        <input type="password" id="pass" required placeholder="password">
+        <input type="password" id="cpass" required placeholder="conform password">
+        <input type="submit" id="submit">
+        <a href="./form.html">already have account</a>
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>
