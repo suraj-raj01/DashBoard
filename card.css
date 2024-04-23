@@ -397,6 +397,43 @@ i {
     border-radius: 10px;
     background-color: white;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #24315E;
+}
+#hero #main-content #main-box1 #box2 #date{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+#hero #main-content #main-box1 #box2 h2{
+    padding: 20px;
+}
+#hero #main-content #main-box1 #box2 #insta,#whats,#face,#yout,#google{
+    width: 100%;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+#hero #main-content #main-box1 #box2 i{
+    border: 1px solid;
+    padding: 7px 8px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #24315E;
+    color: aliceblue;
+}
+#hero #main-content #main-box1 #box2 meter{
+    height: 1.6vh;
+    width: 70%;
+}
+#hero #main-content #main-box1 #box2 p{
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #hero #main-content #main-box2 {

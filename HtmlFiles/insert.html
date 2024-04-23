@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="insert.css">
+    <link rel="stylesheet" href="../CssFile/insert.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <a href="./dash.html"><i class="fa-solid fa-list"></i> Dashboard</a>
             <a href="./insert.html" id="insert"><i class="fa-solid fa-table-list"></i> Insert</a>
             <a href="./table.html"><i class="fa-solid fa-chart-line"></i> Table</a>
-            <a href="./index.html"><i class="fa-solid fa-credit-card"></i> Card</a>
+            <a href="../index.html"><i class="fa-solid fa-credit-card"></i> Card</a>
             <a href="./team.html"><i class="fa-solid fa-users"></i> Team</a>
             <div id="premium">
 
@@ -48,97 +48,104 @@
                <table width="90%">
                 <tr>
                     <th>S.no</th>
-                    <th>Name</th>
+                    <th>Student Name</th>
                     <th>Address</th>
                     <th>Course</th>
                     <th>Grade</th>
                 </tr>
                 <tr>
-                    <td><input type="number" placeholder="enter S.no"></td>
-                    <td><input type="text" placeholder="enter name"></td>
+                    <td><input id="num" type="number" placeholder="Enter S.no"></td>
+                    <td><input type="text" placeholder="Enter name"></td>
                     <td><input type="text" placeholder="Address"></td>
                     <td><input type="text" placeholder="Course"></td>
                     <td><input type="text" placeholder="Grade"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td><input type="number"></td>
+                    <td><input id="num" type="number"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><input id="num" type="number"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
@@ -146,14 +153,15 @@
                 </tr>
                </table>
                <div id="bottom">
-                <button type="button">Clear</button>
-                <button type="button">Submit</button>
-                <button type="button">Next</button>
+                <button type="button" onclick="clear();">Clear</button>
+                <button type="button" onclick="submit();">Submit</button>
+                <button type="button" onclick="prt();">Print</button>
+                <button type="button" onclick="next();">Next</button>
                </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>
