@@ -408,7 +408,7 @@ i {
     padding: 0px 20px;
 }
 #hero #main-content #main-box1 #box2 h2{
-    padding: 20px;
+    padding: 10px 20px;
 }
 #hero #main-content #main-box1 #box2 #insta,#whats,#face,#yout,#google{
     width: 100%;
@@ -418,6 +418,7 @@ i {
     justify-content: space-between;
     font-size: 18px;
 }
+
 #hero #main-content #main-box1 #box2 i{
     border: 1px solid;
     padding: 7px 8px;
@@ -429,7 +430,7 @@ i {
 }
 #hero #main-content #main-box1 #box2 meter{
     height: 1.6vh;
-    width: 70%;
+    width: 60%;
 }
 #hero #main-content #main-box1 #box2 p{
     font-weight: bold;
