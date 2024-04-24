@@ -7,21 +7,24 @@ setInterval(() => {
 function login() {
 
 }
-
+// change mode (dark/light)
 function mode() {
     var element = document.body;
     element.classList.toggle("mode");
 }
-
+//print function
 function prt() {
     window.print();
 }
 
+//alert box
 function next()
 {
     alert("No more...")
 }
 
+
+// Time Interval Function
 setInterval(()=>
 {
     let d = new Date();

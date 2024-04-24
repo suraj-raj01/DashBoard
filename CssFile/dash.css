@@ -182,8 +182,8 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: aliceblue;
-    /* border: 2px solid; */
 }
+
 
 #hero #navbar {
     height: 10vh;
