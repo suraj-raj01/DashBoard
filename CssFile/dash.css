@@ -275,8 +275,8 @@ body {
     justify-content: space-evenly;
 }
 #hero #main-content #box{
-    height: 35vh;
-    width: 50vh;
+    height:35vh;
+    width: 60vh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -294,12 +294,27 @@ body {
 }
 #hero #main-content #box img{
     height: 15vh;
-    width: 47vh;
+    width: 57.5vh;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 0px 0px 1px;
+    border-radius: 8px;
 }
+#hero #main-content #box #refresh{
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: #24315E;
+    color: white;
+    border: 1px solid #24315E;
+}
+#hero #main-content #box #refresh:hover{
+    background-color: white;
+    border: 1px solid #24315E;
+    color: #24315E;
+}
+
 #hero #main-content #box button{
     padding: 8px 20px;
     font-weight: bold;

@@ -295,8 +295,8 @@ table th{
 }
 
 table td{
-    background-color: aliceblue;
-    border: 1px solid #24315E;
+    background-color: #0080004f;
+    border: 1px solid #0080004f;
     font-size: 12px;
     font-weight: bold;
     color: white;
@@ -314,9 +314,9 @@ table td #num::placeholder{
 table td input{
     width: 100%;
     padding: 9px 10px;
-    background-color: white;
+    background-color: #0080004f;
     font-weight: bold;
-    border: 1px solid aliceblue;
+    border: 1px solid #0080004f;
     outline: none;
 }
 

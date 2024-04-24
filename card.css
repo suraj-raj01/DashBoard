@@ -83,6 +83,9 @@ body {
     #box2 p{
         color: #24315E;
     }
+    #hero #main-content #main-box1 #box2{
+        background-color: aliceblue;
+    }
 }
 
 #main {
