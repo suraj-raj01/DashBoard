@@ -16,10 +16,6 @@ function mode() {
 function prt() {
     window.print();
 }
-function submit()
-{
-    window.open("http://127.0.0.1:5500/HtmlFiles/table.html");  
-}
 
 function next()
 {
@@ -32,3 +28,25 @@ setInterval(()=>
     let date = d.toDateString();
     document.getElementById('date').innerHTML = date;
 })
+
+
+// fetching data
+
+async function fet()
+{
+    let a = await fetch("http://localhost:3000/student");
+    let res = await a.json();
+    let ot = "";
+    let p = document.getElementById('display_data')
+    let s = res.map((e)=>ot+=
+`
+ <tr>
+ <td>${e.id}</td>
+ <td>${e.name}</td>
+ <td>${e.address}</td>
+ <td>${e.course}</td>
+ <td>${e.grade}</td>
+ </tr>
+`).join(" ");
+p.innerHTML = s;
+}

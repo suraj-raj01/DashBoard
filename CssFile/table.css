@@ -21,11 +21,14 @@ body {
         background-color: black;
         color: white;
     }
-    #left a,i{
+    #left a{
+        color: white;
+    }
+    #left p{
         color: white;
     }
     #left a:hover{
-        color: red;
+        color: #24315E;
     }
     #left #Payment{
         color: white;
@@ -50,8 +53,7 @@ body {
         background-color: white;
     }
     #hero #navbar #third button{
-        background-color: green;
-        border-color: green;
+        border: 1px solid white;
     }
     #hero #navbar #Time{
         background-color: white;
@@ -223,8 +225,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 10px;
-    background-color: white;
-    border-radius: 20px;
 }
 
 #hero #navbar #second i {
@@ -268,18 +268,26 @@ body {
 }
 
 #hero #main-content {
+    margin: auto;
     height: 90vh;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    overflow-y: scroll;
+    border: 2px solid aliceblue;
 }
+
 table th,td{
     border: 1px solid;
     padding: 12px 10px;
     text-align: justify;
     font-weight: bold;
+}
+table #head{
+    position: sticky;
+    top: 0px;
 }
 table th{
     background-color: gold;

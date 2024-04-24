@@ -21,13 +21,16 @@ body {
         background-color: black;
         color: white;
     }
-    #left a,i{
+    #left a{
         color: white;
     }
     #left a:hover{
-        color: red;
+        color: #24315E;
     }
     #left #Payment{
+        color: white;
+    }
+    #left p{
         color: white;
     }
     #hero{
@@ -50,8 +53,7 @@ body {
         background-color: white;
     }
     #hero #navbar #third button{
-        background-color: green;
-        border-color: green;
+        border: 1px solid white;
     }
     #hero #navbar #Time{
         background-color: white;
@@ -218,8 +220,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 10px;
-    background-color: white;
-    border-radius: 20px;
 }
 
 #hero #navbar #second i {
