@@ -165,7 +165,7 @@ body {
 }
 
 #left #premium #box {
-    height: 25vh;
+    height: 30vh;
     width: 80%;
     border-radius: 15px;
     display: flex;
@@ -544,11 +544,14 @@ i {
     background-color: #0080004f;
 }
 
-#hero #main-content #main-box2 #box img {
+#hero #main-content #main-box2 #box iframe {
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: cover;
+}
+#hero #main-content #main-box2 #box a{
+    text-decoration: none;
+    color: #24315E;
 }

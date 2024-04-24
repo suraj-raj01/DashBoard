@@ -276,7 +276,7 @@ body {
     align-items: center;
     justify-content: start;
     overflow-y: scroll;
-    border: 2px solid aliceblue;
+    border: 2px solid #24315E;
 }
 
 table th,td{

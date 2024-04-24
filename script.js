@@ -50,3 +50,32 @@ async function fet()
 `).join(" ");
 p.innerHTML = s;
 }
+
+
+let perc = document.getElementById('perc');
+function per()
+{
+    setInterval(()=>
+{
+    let n = Math.ceil(Math.random()*10);
+    perc.innerHTML = n;
+},400)
+}
+per();
+
+let ghz = document.getElementById('ghz');
+function gh()
+{
+    setInterval(()=>
+{
+    let n = (Math.random()*10.5);
+    ghz.innerHTML = n;
+},400)
+}
+gh();
+
+// lear More Function
+function learMore()
+{
+    window.open("https://www.canarahsbclife.com/blog/financial-planning/what-are-financial-goals-meaning-types-and-benefits","width=600px","height=600px","left=450px","top=100px")
+}
