@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #0080004f;
+        background-color: black;
         color: white;
     }
 
@@ -104,28 +104,23 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    background-color: #24315E;
     /* gap: 25px; */
     /* border: 2px solid; */
 }
-
-#left p {
+#left p{
     padding: 40px 25px;
     font-weight: bold;
-    color: #24315E;
+    color: white;
 }
-
 #left #admin {
-    font-size: 25px;
-    padding: 0px 45px;
-    color: #24315E;
+    font-size: 35px;
+    padding: 0px 40px;
+    color: white;
     border: none;
 }
 
-#left #admin span {
-    font-weight: bold;
-    font-size: 25px;
-    font-family: impact;
-}
+
 
 #left a {
     text-decoration: none;
@@ -133,24 +128,25 @@ body {
     font-size: 14px;
     padding: 0px 0px 0px 40px;
     text-align: left;
-    color: #4444449e;
+    color: white;
     /* border: 1px solid; */
     width: 100%;
     padding: 15px 20px;
 }
-
-#left a:hover {
+#left a:hover{
     background-color: aliceblue;
 }
-
-#left #card {
+#left #card{
     background-color: aliceblue;
     color: #24315E;
 }
-
+#left #card i{
+    color: #24315E;
+}
 #left a i {
     padding: 0px 5px;
     text-align: left;
+    color: white;
 }
 
 #left a:hover {
