@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../CssFile/card.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="left">
+      <p>ADMIN <br>SURAJ KUMAR</p>
+      <a href="../index.html"><i class="fa-solid fa-list"></i> Dashboard</a>
+      <a href="./insert.html"><i class="fa-solid fa-table-list"></i> Insert</a>
+      <a href="./table.html"><i class="fa-solid fa-chart-line"></i> Table</a>
+      <a href="./dash.html" id="card"><i class="fa-solid fa-credit-card"></i> Card</a>
+      <a href="./team.html"><i class="fa-solid fa-users"></i> Team</a>
+      <div id="premium">
+        <div id="box">
+          <p>Get a Premium Account</p>
+          <button type="button" id="btn">Get Now</button>
+        </div>
+      </div>
+    </div>
+    <div id="hero">
+      <div id="navbar">
+        <ul id="first">
+          <li id="welc">Dashboard</li>
+        </ul>
+        <ul id="Time">
+          <li>
+            <p id="time"></p>
+          </li>
+        </ul>
+        <ul id="second">
+          <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+          <li id="user"><a href="./Form/form.html" target="_blank"><i class="fa-solid fa-user"></i></a></li>
+          <li id="mode" onclick="mode();"><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+        </ul>
+        <ul id="third">
+          <li><input type="text" placeholder=" search..."><button type="button"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+        </ul>
+      </div>
+      <div id="main-content">
+        <div id="main-box1">
+          <div id="box1">
+            <div id="div1">
+              <div id="box">
+                <i class="fa-solid fa-credit-card"></i>
+                <p>Transfer via Card Number</p>
+                <p id="money">$1241</p>
+              </div>
+              <div id="box">
+                <i class="fa-solid fa-chart-simple"></i>
+                <p>Transfer Other Bank</p>
+                <p id="money">$142</p>
+              </div>
+              <div id="box">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <p>Transfer Same Bank</p>
+                <p id="money">$155</p>
+              </div>
+            </div>
+            <div id="div2">
+              <div id="box1">
+                <h2>Reach financial goal faster</h2>
+                <p>Use your payment card around the world with no hidden fees Hold transfer and spend money</p>
+                <button type="button" onclick="learMore();">Learn More</button>
+              </div>
+              <div id="box2">
+                <img src="https://static.qantasloyalty.com/store-static-assets/desktop/1005254_1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div id="box2">
+            <p id="date"></p>
+            <p id="date">Used Apps</p>
+           <h2>Today's Screen Time</h2>
+           <div id="insta"><i class="fa-brands fa-square-instagram"></i> <meter min="0" value="40" max="100"></meter> <p>40%  </p> </div>
+           <div id="whats"><i class="fa-brands fa-square-whatsapp"></i><meter min="0" value="10" max="100"></meter> <p>10%  </p></div>
+           <div id="face"><i class="fa-brands fa-facebook"></i><meter min="0" value="15" max="100"></meter> <p>15%  </p></div>
+           <div id="yout"><i class="fa-brands fa-youtube"></i><meter min="0" value="14" max="100"></meter> <p>14%  </p></div>
+           <div id="google"><i class="fa-brands fa-google-plus"></i><meter min="0" value="15" max="100"></meter> <p>15%  </p></div>
+           <div id="google"><i class="fa-solid fa-sliders"></i><meter min="0" value="6" max="100"></meter> <p>6% </p></div>
+          </div>
+        </div>
+        <div id="main-box2">
+          <div id="box">
+            <h3>Your Transaction</h3>
+            <div id="shoping">
+              <i class="fa-solid fa-lock"></i>
+              <p>Shoping Today <br>Time : 10:24 AM</p>
+              <p id="prize">-$212</p>
+            </div>
+            <div id="movies">
+              <i class="fa-solid fa-film"></i>
+              <p>Movies Show Today <br>Time : 11:23 AM</p>
+              <p id="prize">-$35</p>
+            </div>
+            <div id="steps">
+              <i class="fa-solid fa-burger"></i>
+              <p>Fast Foods Today <br>Time : 5:23 PM</p>
+              <p id="prize">-$30</p>
+            </div>
+          </div>
+          <div id="box">
+            <h3>Your Transfer</h3>
+            <div id="shoping">
+              <i class="fa-solid fa-registered"></i>
+              <p>RAJAN KUMAR <br>Time : 10:24 AM</p>
+              <p id="prize">-$212</p>
+            </div>
+            <div id="movies">
+              <i class="fa-solid fa-circle-h"></i>
+              <p>HARIOM KUMAR <br>Time : 11:23 AM</p>
+              <p id="transfer">+$35</p>
+            </div>
+            <div id="steps">
+              <i class="fa-brands fa-product-hunt"></i>
+              <p>PANKAJ KUMAR <br>Time : 5:23 PM</p>
+              <p id="transfer">+$30</p>
+            </div>
+          </div>
+          <div id="box" id="box3">
+             <h3><a href="https://maps.app.goo.gl/qqHy82outPa3fn9Q8" target="_blank">Locate Me on Map <i class="fa-solid fa-up-right-from-square"></i></a> </h3>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13375517.340303045!2d79.10800190428546!3d23.26462627220384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1713947999729!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

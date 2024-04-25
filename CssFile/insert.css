@@ -65,6 +65,14 @@ body {
     #hero #navbar #Time p{
         color: black;
     }
+    #hero #main-content {
+       border: 1px solid aliceblue;
+    }
+    #hero #main-content form input{
+        background-color: black;
+        border: 1px solid aliceblue;
+        color: white;
+    }
 }
 
 #main {
@@ -275,14 +283,24 @@ body {
     justify-content: start;
     overflow-y: scroll;
     border: 1px solid black;
+    padding: 10px;
 }
 #hero #main-content form{
     height: 85vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    align-items: start;
     justify-content: center;
+}
+#hero #main-content form input{
+    padding: 10px;
+    width: 220px;
+    background-color: aliceblue;
+    border: 1px solid #24315E;
+    font-weight: bold;
+    outline: none;
 }
 
 #bottom{
