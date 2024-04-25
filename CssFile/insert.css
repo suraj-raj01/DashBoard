@@ -85,7 +85,6 @@ body {
     justify-content: center;
     background-color: #24315E;
     /* gap: 25px; */
-    /* border: 2px solid; */
 }
 #left p{
     padding: 40px 25px;
@@ -275,51 +274,15 @@ body {
     align-items: center;
     justify-content: start;
     overflow-y: scroll;
-    border: 2px solid aliceblue;
+    border: 1px solid black;
 }
-table #head{
-    position: sticky;
-    top: 0px;
-}
-table th{
-    padding: 10px;
-}
-table th,td{
-    border: 1px solid;
-    text-align: justify;
-    font-weight: bold;
-}
-table th{
-    background-color: gold;
-    border: 1px solid gold;
-    color: #24315E;
-}
-
-table td{
-    background-color: #0080004f;
-    border: 1px solid #0080004f;
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
-}
-table td #num{
-    background-color: #24315E;
-    border: 1px solid #24315E;
-    color: white;
-}
-
-table td #num::placeholder{
-    color: white;
-}
-
-table td input{
+#hero #main-content form{
+    height: 85vh;
     width: 100%;
-    padding: 9px 10px;
-    background-color: #0080004f;
-    font-weight: bold;
-    border: 1px solid #0080004f;
-    outline: none;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #bottom{
