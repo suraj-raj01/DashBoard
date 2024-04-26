@@ -15,10 +15,10 @@
     <div id="main">
         <div id="left">
             <p>ADMIN <br>SURAJ KUMAR</p>
-            <a href="../index.html" ><i class="fa-solid fa-list"></i> Dashboard</a>
+            <a href="../index.html"><i class="fa-solid fa-list"></i> Dashboard</a>
             <a href="./insert.html"><i class="fa-solid fa-table-list"></i> Insert</a>
-            <a href="./table.html" ><i class="fa-solid fa-chart-line"></i> Table</a>
-            <a href="./card.html" ><i class="fa-solid fa-credit-card"></i> Card</a>
+            <a href="./table.html"><i class="fa-solid fa-chart-line"></i> Table</a>
+            <a href="./card.html"><i class="fa-solid fa-credit-card"></i> Card</a>
             <a href="./team.html" id="team"><i class="fa-solid fa-users"></i> Team</a>
             <div id="premium">
 
@@ -45,21 +45,57 @@
                 </ul>
             </div>
             <div id="main-content">
-               <div id="box">
-                  <h1>TEAM LEADER</h1>
-               </div> 
+                <div id="box">
+                    <div id="table">
+                        <table>
+                            <thead id="head">
+                                <td>Id</td>
+                                <td>userId</td>
+                                <td>title</td>
+                            </thead>
+                            <tbody id="displayData">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="button">
+                        <a href="./team.html"><button type="button">Clear</button></a>
+                        <button type="button" onclick="fetchData();">Fetch</button>
+                        <button type="button">Next</button>
+                    </div>
+                </div>
 
-               <div id="box">
-                <h1>TEAM MANAGER</h1>
-               </div>
+                <div id="box">
+                    <div id="table">
+                        <table>
+                            <thead id="head">
+                                <td>albumId</td>
+                                <td>id</td>
+                                <td>url</td>
+                            </thead>
+                            <tbody id="displayData1">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="button">
+                        <a href="./team.html"><button type="button">Clear</button></a>
+                        <button type="button" onclick="fetchData1();">Fetch</button>
+                        <button type="button">Next</button>
+                    </div>
+                </div>
 
-               <div id="box">
-                <h1>FRONTEND DEVELOPER</h1>
-               </div>
+                <div id="box">
+                    <h1>FRONTEND DEVELOPER</h1>
+                </div>
 
-               <div id="box">
-                <h1>BACKEND DEVELOPER</h1>
-               </div>
+                <div id="box">
+                    <h1>BACKEND DEVELOPER</h1>
+                </div>
             </div>
         </div>
     </div>

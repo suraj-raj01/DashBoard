@@ -302,6 +302,7 @@ body {
     background-position: center;
     box-shadow: 0px 0px 1px aliceblue;
     border-radius: 8px;
+    background-color: white;
 }
 #hero #main-content #box #refresh{
     padding: 8px 10px;
