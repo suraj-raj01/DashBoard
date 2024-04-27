@@ -306,6 +306,9 @@ body {
     width: 100%;
     border: 1px solid #24315E;
 }
+#hero #main-content #head td{
+    border: 1px solid #24315E;
+}
 #hero #main-content table td{
     border: 1px solid;
     padding: 5px;
