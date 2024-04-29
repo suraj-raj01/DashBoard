@@ -18,15 +18,13 @@ function prt() {
 }
 
 //alert box
-function next()
-{
+function next() {
     alert("No more...")
 }
 
 
 // Time Interval Function
-setInterval(()=>
-{
+setInterval(() => {
     let d = new Date();
     let date = d.toDateString();
     document.getElementById('date').innerHTML = date;
@@ -35,14 +33,13 @@ setInterval(()=>
 
 // fetching data
 
-async function fet()
-{
+async function fet() {
     let a = await fetch("http://localhost:3000/student");
     let res = await a.json();
     let ot = "";
     let p = document.getElementById('display_data')
-    let s = res.map((e)=>ot+=
-`
+    let s = res.map((e) => ot +=
+        `
  <tr>
  <td>${e.id}</td>
  <td>${e.name}</td>
@@ -51,48 +48,42 @@ async function fet()
  <td>${e.grade}</td>
  </tr>
 `).join(" ");
-p.innerHTML = s;
+    p.innerHTML = s;
 }
 
 
 let perc = document.getElementById('perc');
-function per()
-{
-    setInterval(()=>
-{
-    let n = Math.ceil(Math.random()*10);
-    perc.innerHTML = n;
-},400)
+function per() {
+    setInterval(() => {
+        let n = Math.ceil(Math.random() * 10);
+        perc.innerHTML = n;
+    }, 400)
 }
 per();
 
 let ghz = document.getElementById('ghz');
-function gh()
-{
-    setInterval(()=>
-{
-    let n = (Math.random()*10.5);
-    ghz.innerHTML = n;
-},400)
+function gh() {
+    setInterval(() => {
+        let n = (Math.random() * 10.5);
+        ghz.innerHTML = n;
+    }, 400)
 }
 gh();
 
 // lear More Function
-function learMore()
-{
-    window.open("https://www.canarahsbclife.com/blog/financial-planning/what-are-financial-goals-meaning-types-and-benefits","width=600px","height=600px","left=450px","top=100px")
+function learMore() {
+    window.open("https://www.canarahsbclife.com/blog/financial-planning/what-are-financial-goals-meaning-types-and-benefits", "width=600px", "height=600px", "left=450px", "top=100px")
 }
 
 
 // TEAM 
 
-async function fetchData()
-{
+async function fetchData() {
     let a = await fetch("https://jsonplaceholder.typicode.com/posts");
     let j = await a.json();
     let ot = "";
     let s = document.getElementById('displayData');
-    let res = j.map((e)=>ot+=`
+    let res = j.map((e) => ot += `
 
     <tr>
      <td>${e.id}</td>
@@ -100,27 +91,26 @@ async function fetchData()
      <td>${e.title}</td>
     </tr>
     `
-).join(" ");
-s.innerHTML = res;
+    ).join(" ");
+    s.innerHTML = res;
 }
 
 
-async function fetchData1()
-{
+async function fetchData1() {
     let a = await fetch("https://jsonplaceholder.typicode.com/albums/1/photos");
     let j = await a.json();
     let ot = "";
     let s = document.getElementById('displayData1');
-    let res = j.map((e)=>ot+=`
+    let res = j.map((e) => ot += `
 
     <tr>
      <td>${e.albumId}</td>
      <td>${e.id}</td>
-     <td>${e.url}</td>
+     <td><img src="${e.url}"></td>
     </tr>
     `
-).join(" ");
-s.innerHTML = res;
+    ).join(" ");
+    s.innerHTML = res;
 }
 
 
@@ -134,10 +124,10 @@ var jsonText = document.getElementById("jsontext")
 
 
 
-jsonBtn.addEventListener("click", function(){
+jsonBtn.addEventListener("click", function () {
     var data = {
-        "firstName":firstname.value,
-        "lastName":lastname.value
+        "firstName": firstname.value,
+        "lastName": lastname.value
     }
     jsonText.innerHTML = JSON.stringify(data)
 })

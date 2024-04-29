@@ -1,39 +1,33 @@
-function register()
-{
-    let name =  document.getElementById('name').value;
+function register() {
+    let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let pass = document.getElementById('pass').value;
     let cpass = document.getElementById('cpass').value;
-    if(name=="")
-    {
+    if (name == "") {
         alert("please enter your name");
         return false;
     }
-    else if(email=="")
-    {
+    else if (email == "") {
         alert("please enter your email");
         document.getElementById('email').focus();
         return false;
     }
-    else if(pass=="")
-    {
+    else if (pass == "") {
         alert("Please enter your pass");
         document.getElementById('pass').focus();
         return false;
     }
-    else if(!(pass.match(/[!@#-+]/))){
+    else if (!(pass.match(/[!@#-+]/))) {
         alert("weak password!!");
         document.getElementById('pass').value;
         return false;
     }
-    else if(cpass=="")
-    {
+    else if (cpass == "") {
         alert("please enter your conform pass");
         document.getElementById('cpass').focus();
         return false;
     }
-    if(pass!=cpass)
-    {
+    if (pass != cpass) {
         alert("incorrect pass!!!");
         document.getElementById('cpass').focus();
         return false;

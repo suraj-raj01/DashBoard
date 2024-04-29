@@ -1,123 +1,123 @@
 {
-    "student":[
+    "student": [
         {
-            "id":1,
-            "name":"SURAJ KUMAR",
-            "address":"BIHAR",
-            "course":"Java FullStack",
-            "grade":"A+"
+            "id": 1,
+            "name": "SURAJ KUMAR",
+            "address": "BIHAR",
+            "course": "Java FullStack",
+            "grade": "A+"
         },
         {
-            "id":2,
-            "name":"RAHUL KUMAR",
-            "address":"UP",
-            "course":"CYBER SECURITY",
-            "grade":"A"
+            "id": 2,
+            "name": "RAHUL KUMAR",
+            "address": "UP",
+            "course": "CYBER SECURITY",
+            "grade": "A"
         },
         {
-            "id":3,
-            "name":"BITTU KUMAR",
-            "address":"JABALPUR",
-            "course":"Java FullStack",
-            "grade":"A"
+            "id": 3,
+            "name": "BITTU KUMAR",
+            "address": "JABALPUR",
+            "course": "Java FullStack",
+            "grade": "A"
         },
         {
-            "id":4,
-            "name":"PRIYANSHU KUMAR",
-            "address":"INDORE",
-            "course":"Python FullStack",
-            "grade":"A+"
+            "id": 4,
+            "name": "PRIYANSHU KUMAR",
+            "address": "INDORE",
+            "course": "Python FullStack",
+            "grade": "A+"
         },
         {
-            "id":5,
-            "name":"MUNNA KUMAR",
-            "address":"UP",
-            "course":"CYBER SECURITY",
-            "grade":"A+"
+            "id": 5,
+            "name": "MUNNA KUMAR",
+            "address": "UP",
+            "course": "CYBER SECURITY",
+            "grade": "A+"
         },
         {
-            "id":6,
-            "name":"DEVANSH KUMAR",
-            "address":"REVA",
-            "course":"Python FullStack",
-            "grade":"A+"
+            "id": 6,
+            "name": "DEVANSH KUMAR",
+            "address": "REVA",
+            "course": "Python FullStack",
+            "grade": "A+"
         },
         {
-            "id":7,
-            "name":"SUSHIL KUMAR",
-            "address":"BIHAR",
-            "course":"CYBER SECURITY",
-            "grade":"B+"
+            "id": 7,
+            "name": "SUSHIL KUMAR",
+            "address": "BIHAR",
+            "course": "CYBER SECURITY",
+            "grade": "B+"
         },
         {
-            "id":8,
-            "name":"HARIOM KUMAR",
-            "address":"BHOPAL",
-            "course":"DSA + FullStack",
-            "grade":"A+"
+            "id": 8,
+            "name": "HARIOM KUMAR",
+            "address": "BHOPAL",
+            "course": "DSA + FullStack",
+            "grade": "A+"
         },
         {
-            "id":9,
-            "name":"RAJAN KUMAR",
-            "address":"BIHAR",
-            "course":"Java FullStack",
-            "grade":"A+"
+            "id": 9,
+            "name": "RAJAN KUMAR",
+            "address": "BIHAR",
+            "course": "Java FullStack",
+            "grade": "A+"
         },
         {
-            "id":10,
-            "name":"VISHAL KUMAR",
-            "address":"UP",
-            "course":"Java FullStack",
-            "grade":"B"
+            "id": 10,
+            "name": "VISHAL KUMAR",
+            "address": "UP",
+            "course": "Java FullStack",
+            "grade": "B"
         },
         {
-            "id":1,
-            "name":"KAMAL KUMAR",
-            "address":"INDORE",
-            "course":"DSA + FullStack",
-            "grade":"A+"
+            "id": 1,
+            "name": "KAMAL KUMAR",
+            "address": "INDORE",
+            "course": "DSA + FullStack",
+            "grade": "A+"
         },
         {
-            "id":2,
-            "name":"VARUN KUMAR",
-            "address":"BIHAR",
-            "course":"Java FullStack",
-            "grade":"A+"
+            "id": 2,
+            "name": "VARUN KUMAR",
+            "address": "BIHAR",
+            "course": "Java FullStack",
+            "grade": "A+"
         },
         {
-            "id":3,
-            "name":"SHIVAM KUMAR",
-            "address":"REVA",
-            "course":"Java FullStack",
-            "grade":"C+"
+            "id": 3,
+            "name": "SHIVAM KUMAR",
+            "address": "REVA",
+            "course": "Java FullStack",
+            "grade": "C+"
         },
         {
-            "id":4,
-            "name":"SUMIT KUMAR",
-            "address":"JABALPUR",
-            "course":"Python FullStack",
-            "grade":"B"
+            "id": 4,
+            "name": "SUMIT KUMAR",
+            "address": "JABALPUR",
+            "course": "Python FullStack",
+            "grade": "B"
         },
         {
-            "id":5,
-            "name":"AMAN KUMAR",
-            "address":"UJJAIN",
-            "course":"Java FullStack",
-            "grade":"A+"
+            "id": 5,
+            "name": "AMAN KUMAR",
+            "address": "UJJAIN",
+            "course": "Java FullStack",
+            "grade": "A+"
         },
         {
-            "id":6,
-            "name":"PANKAJ KUMAR",
-            "address":"BIHAR",
-            "course":"Java FullStack",
-            "grade":"B+"
+            "id": 6,
+            "name": "PANKAJ KUMAR",
+            "address": "BIHAR",
+            "course": "Java FullStack",
+            "grade": "B+"
         },
         {
-            "id":7,
-            "name":"RAJESH KUMAR",
-            "address":"BHOPAL",
-            "course":"Python FullStack",
-            "grade":"A+"
+            "id": 7,
+            "name": "RAJESH KUMAR",
+            "address": "BHOPAL",
+            "course": "Python FullStack",
+            "grade": "A+"
         }
     ]
 }

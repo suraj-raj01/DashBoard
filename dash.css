@@ -16,53 +16,68 @@ html {
 body {
     background-color: white;
 }
-.mode{
-    #left{
+
+.mode {
+    #left {
         background-color: black;
         color: white;
     }
-    #left a{
+
+    #left a {
         color: white;
     }
-    #left p{
+
+    #left p {
         color: white;
     }
-    #left a:hover{
+
+    #left a:hover {
         color: #24315E;
     }
-    #left #Payment{
+
+    #left #Payment {
         color: white;
     }
-    #hero{
+
+    #hero {
         background-color: black;
         color: white;
     }
-    
-    #hero p{
+
+    #hero p {
         color: white;
     }
-    #hero #navbar #first #welc{
+
+    #hero #navbar #first #welc {
         color: white;
     }
-    #hero #navbar #second i{
+
+    #hero #navbar #second i {
         color: #24315E;
         background-color: white;
     }
-    #hero #navbar #second #mode i{
+
+    #hero #navbar #second #mode i {
         color: #24315E;
         background-color: white;
     }
-    #hero #navbar #third button{
+
+    #hero #navbar #third button {
         border: 1px solid white;
     }
-    #hero #navbar #Time{
+
+    #hero #navbar #Time {
         background-color: white;
         color: #24315E;
     }
-    #hero #navbar #Time p{
+
+    #hero #navbar #Time p {
         color: black;
     }
-    #main-content h5,h4,h3{
+
+    #main-content h5,
+    h4,
+    h3 {
         color: white;
     }
 }
@@ -87,11 +102,13 @@ body {
     /* gap: 25px; */
     /* border: 2px solid; */
 }
-#left p{
+
+#left p {
     padding: 40px 25px;
     font-weight: bold;
     color: white;
 }
+
 #left #admin {
     font-size: 25px;
     padding: 0px 45px;
@@ -112,13 +129,16 @@ body {
     width: 100%;
     padding: 15px 20px;
 }
-#left a:hover{
+
+#left a:hover {
     background-color: aliceblue;
 }
-#left #dash{
+
+#left #dash {
     background-color: aliceblue;
     color: #24315E;
 }
+
 #left a i {
     padding: 0px 5px;
     text-align: left;
@@ -233,7 +253,8 @@ body {
     background-color: white;
     color: #24315E;
 }
-#hero #navbar #second #mode i{
+
+#hero #navbar #second #mode i {
     padding: 8px 8px;
     color: #24315E;
 }
@@ -253,7 +274,8 @@ body {
     box-shadow: 0px 0px 1px #4444449e;
     outline: none;
 }
-#hero #navbar #third button{
+
+#hero #navbar #third button {
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -262,7 +284,8 @@ body {
     background-color: #24315E;
     box-shadow: 0px 0px 1px;
 }
-#hero #navbar #third button i{
+
+#hero #navbar #third button i {
     color: white;
 }
 
@@ -275,8 +298,9 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-#hero #main-content #box{
-    height:35vh;
+
+#hero #main-content #box {
+    height: 35vh;
     width: 60vh;
     border-radius: 20px;
     display: flex;
@@ -287,13 +311,15 @@ body {
     text-align: justify;
     padding: 10px;
 }
-#hero #main-content #box div{
+
+#hero #main-content #box div {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
-#hero #main-content #box img{
+
+#hero #main-content #box img {
     height: 15vh;
     width: 57.5vh;
     background-size: cover;
@@ -304,29 +330,31 @@ body {
     border-radius: 8px;
     background-color: white;
 }
-#hero #main-content #box #refresh{
+
+#hero #main-content #box #refresh {
     padding: 8px 10px;
     border-radius: 20px;
     background-color: #24315E;
     color: white;
     border: 1px solid #24315E;
 }
-#hero #main-content #box #refresh:hover{
+
+#hero #main-content #box #refresh:hover {
     background-color: white;
     border: 1px solid #24315E;
     color: #24315E;
 }
 
-#hero #main-content #box button{
+#hero #main-content #box button {
     padding: 8px 20px;
     font-weight: bold;
     color: white;
     background-color: #24315E;
     border: 1px solid #24315E;
 }
-#hero #main-content #box button:hover{
+
+#hero #main-content #box button:hover {
     background-color: white;
     color: #24315E;
     cursor: pointer;
 }
-

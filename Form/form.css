@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-body{
+
+body {
     background-color: aliceblue;
 }
-form{
+
+form {
     margin: 150px auto;
     height: 350px;
     width: 500px;
@@ -22,12 +24,14 @@ form{
     box-shadow: 0px 0px 2px;
     border-radius: 10px;
 }
-form label{
+
+form label {
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
 }
-form input{
+
+form input {
     width: 90%;
     padding: 10px 0px;
     border: 1px solid aliceblue;
@@ -35,17 +39,20 @@ form input{
     background-color: aliceblue;
     outline: none;
 }
-form input::placeholder{
+
+form input::placeholder {
     font-size: 14px;
     font-weight: 600;
 }
-form #forgot{
+
+form #forgot {
     margin: 0px 0px 0px 250px;
     text-decoration: underline;
     font-weight: bold;
     color: #24315E;
 }
-form #submit{
+
+form #submit {
     padding: 15px;
     border-radius: 50px;
     background-color: #24315E;
@@ -54,12 +61,14 @@ form #submit{
     font-weight: bold;
     cursor: pointer;
 }
-form #submit:hover{
+
+form #submit:hover {
     background-color: white;
     color: #24315E;
     border: 1px solid;
 }
-form a{
+
+form a {
     text-decoration: none;
     font-size: 14px;
     color: #24315E;

@@ -74,16 +74,20 @@ body {
     #hero #navbar #Time p {
         color: black;
     }
-    #div2 #box1{
+
+    #div2 #box1 {
         background-color: #0080004f;
     }
-    #div2 #box1 h2{
+
+    #div2 #box1 h2 {
         color: #24315E;
     }
-    #box2 p{
+
+    #box2 p {
         color: #24315E;
     }
-    #hero #main-content #main-box1 #box2{
+
+    #hero #main-content #main-box1 #box2 {
         background-color: aliceblue;
     }
 }
@@ -108,11 +112,13 @@ body {
     /* gap: 25px; */
     /* border: 2px solid; */
 }
-#left p{
+
+#left p {
     padding: 40px 25px;
     font-weight: bold;
     color: white;
 }
+
 #left #admin {
     font-size: 35px;
     padding: 0px 40px;
@@ -133,16 +139,20 @@ body {
     width: 100%;
     padding: 15px 20px;
 }
-#left a:hover{
+
+#left a:hover {
     background-color: aliceblue;
 }
-#left #card{
+
+#left #card {
     background-color: aliceblue;
     color: #24315E;
 }
-#left #card i{
+
+#left #card i {
     color: #24315E;
 }
+
 #left a i {
     padding: 0px 5px;
     text-align: left;
@@ -550,7 +560,8 @@ i {
     background-position: center;
     background-repeat: no-repeat;
 }
-#hero #main-content #main-box2 #box a{
+
+#hero #main-content #main-box2 #box a {
     text-decoration: none;
     color: #24315E;
 }
