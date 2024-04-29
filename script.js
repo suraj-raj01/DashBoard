@@ -122,3 +122,22 @@ async function fetchData1()
 ).join(" ");
 s.innerHTML = res;
 }
+
+
+
+// Insert Items
+
+var firstname = document.getElementById("firstname")
+var lastname = document.getElementById("lastname")
+var jsonBtn = document.getElementById("jsonbtn")
+var jsonText = document.getElementById("jsontext")
+
+
+
+jsonBtn.addEventListener("click", function(){
+    var data = {
+        "firstName":firstname.value,
+        "lastName":lastname.value
+    }
+    jsonText.innerHTML = JSON.stringify(data)
+})
