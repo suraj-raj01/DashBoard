@@ -278,8 +278,8 @@ body {
 }
 
 #hero #main-content #box{
-    height: 40vh;
-    width: 65vh;
+    height: 42vh;
+    width: 70vh;
     background-color: aliceblue;
     color: #24315E;
     display: flex;
@@ -304,10 +304,9 @@ body {
     color: white;
     font-weight: bold;
     width: 100%;
-    border: 1px solid #24315E;
 }
 #hero #main-content #head td{
-    border: 1px solid #24315E;
+    border: 1px solid aliceblue;
 }
 #hero #main-content table td{
     border: 1px solid;
@@ -331,7 +330,7 @@ body {
     font-weight: bold;
 }
 #hero #main-content #box button:hover{
-    background-color: white;
+    background-color: aliceblue;
     color: #24315E;
     cursor: pointer;
 }
