@@ -118,6 +118,13 @@
             "address": "BHOPAL",
             "course": "Python FullStack",
             "grade": "A+"
+        },
+        {
+            "id": 8,
+            "name": "GOPAL KUMAR",
+            "address": "RAISEN",
+            "course": "Java FullStack",
+            "grade": "B+"
         }
     ]
 }
