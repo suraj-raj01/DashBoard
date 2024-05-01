@@ -322,13 +322,12 @@ body {
 #hero #main-content #box img {
     height: 15vh;
     width: 57.5vh;
-    background-size: cover;
-    object-fit: cover;
+    object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 0px 0px 1px aliceblue;
+    box-shadow: 0px 0px 1px transparent;
     border-radius: 8px;
-    background-color: white;
+    background-color: transparent;
 }
 
 #hero #main-content #box #refresh {
