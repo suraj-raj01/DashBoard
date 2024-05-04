@@ -27,11 +27,12 @@ function register() {
         document.getElementById('cpass').focus();
         return false;
     }
-    if (pass != cpass) {
+    else if (pass != cpass) {
         alert("incorrect pass!!!");
         document.getElementById('cpass').focus();
         return false;
     }
+    alert("you're registered Successfully!!");
 };
 
 
@@ -50,5 +51,6 @@ function valid() {
         document.getElementById('password').focus();
         return false;
     }
+    alert("You're Login Successfully!!");
 
 }
