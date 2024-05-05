@@ -292,13 +292,70 @@ body {
 #hero #main-content {
     height: 90vh;
     width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* border: 1px solid; */
 }
 
-#hero #main-content #box {
+
+#hero #main-content #team{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #24315E;
+    text-align: justify;
+    padding: 10px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+}
+#hero #main-content #team div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+#hero #main-content #team h4{
+    font-weight: bold;
+    padding: 20px 5px;
+    font-size: 30px;
+}
+
+#hero #main-content #team img {
+    height: 50vh;
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 1px transparent;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+
+#hero #main-content #team button {
+    padding: 12px 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: #24315E;
+    border: 1px solid #24315E;
+}
+
+#hero #main-content #team button:hover {
+    background-color: white;
+    color: #24315E;
+    cursor: pointer;
+}
+
+
+/* #hero #main-content #box {
     height: 42vh;
     width: 70vh;
     background-color: aliceblue;
@@ -361,4 +418,4 @@ body {
     background-color: aliceblue;
     color: #24315E;
     cursor: pointer;
-}
+} */
