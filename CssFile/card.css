@@ -278,7 +278,7 @@ body {
 }
 
 #hero #navbar #third input {
-    width: 250px;
+    width: 75%;
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
@@ -290,6 +290,7 @@ body {
 }
 
 #hero #navbar #third button {
+    width: 25%;
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -344,7 +345,7 @@ body {
 #hero #main-content #main-box1 #box1 #div1 #box {
     height: 20vh;
     width: 30%;
-    background-color: white;
+    background-color: #24315E;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -355,13 +356,13 @@ body {
 }
 
 #hero #main-content #main-box1 #box1 #div1 #box p {
-    color: #4444449e;
+    color: white;
 }
 
 #hero #main-content #main-box1 #box1 #div1 #box #money,
 i {
     font-weight: bold;
-    color: #24315E;
+    color: white;
 }
 
 #hero #main-content #main-box1 #box1 #div2 {
@@ -372,7 +373,8 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: #24315E;
+    color: white;
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box1 {
@@ -387,29 +389,31 @@ i {
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box1 p {
-    color: #4444449e;
+    color: white;
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box1 button {
     padding: 12px 20px;
     border-radius: 20px;
-    border: 1px solid #24315E;
-    background-color: #24315E;
-    color: white;
+    border: 1px solid white;
+    background-color: white;
+    color: #24315E;
     font-weight: bold;
     cursor: pointer;
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box1 button:hover {
-    background-color: white;
-    color: #24315E;
+    background-color: #24315E;
+    color: white;
     border: 1px solid;
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box2 {
     /* border: 1px solid; */
-    height: 30vh;
+    height: 25vh;
     width: 45%;
+    padding: 5px;
+    background-color: #24315E;
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box2 img {
@@ -432,13 +436,13 @@ i {
     width: 30%;
     /* border: 1px solid; */
     border-radius: 10px;
-    background-color: white;
+    background-color: #24315E;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    color: #24315E;
+    color: white;
 }
 
 #hero #main-content #main-box1 #box2 #date {
@@ -469,13 +473,13 @@ i {
     border-radius: 20px;
     font-size: 14px;
     border: none;
-    background-color: #24315E;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: #24315E;
 }
 
 #hero #main-content #main-box1 #box2 meter {
     height: 1.6vh;
-    width: 60%;
+    width: 65%;
 }
 
 #hero #main-content #main-box1 #box2 p {
@@ -495,7 +499,7 @@ i {
 #hero #main-content #main-box2 #box {
     height: 30vh;
     width: 30%;
-    background-color: white;
+    background-color: #24315E;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -503,7 +507,7 @@ i {
     gap: 15px;
     padding: 10px 30px;
     border-radius: 15px;
-    color: #24315E;
+    color: white;
 }
 
 #hero #main-content #main-box2 #box i {
@@ -516,8 +520,9 @@ i {
 }
 
 #hero #main-content #main-box2 #box i:hover {
-    background-color: #0080004f;
-    color: #24315E;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 #hero #main-content #main-box2 #box #shoping,
@@ -534,7 +539,7 @@ i {
 #hero #main-content #main-box2 #box p {
     font-weight: bold;
     font-size: 12px;
-    color: #4444449e;
+    color: white;
 }
 
 #hero #main-content #main-box2 #box #prize {
@@ -542,7 +547,7 @@ i {
     border: 1px solid white;
     color: red;
     border-radius: 20px;
-    background-color: #ff000039;
+    background-color: aliceblue;
 }
 
 #hero #main-content #main-box2 #box #transfer {
@@ -550,7 +555,7 @@ i {
     border: 1px solid white;
     color: green;
     border-radius: 20px;
-    background-color: #0080004f;
+    background-color: aliceblue;
 }
 
 #hero #main-content #main-box2 #box iframe {
@@ -563,5 +568,5 @@ i {
 
 #hero #main-content #main-box2 #box a {
     text-decoration: none;
-    color: #24315E;
+    color: white;
 }

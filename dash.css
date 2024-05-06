@@ -264,7 +264,7 @@ body {
 }
 
 #hero #navbar #third input {
-    width: 250px;
+    width: 75%;
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
@@ -276,6 +276,7 @@ body {
 }
 
 #hero #navbar #third button {
+    width: 25%;
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -290,26 +291,29 @@ body {
 }
 
 #hero #main-content {
-    margin: auto;
-    height: 85vh;
+    height: 100vh;
     width: 90%;
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#hero #main-content #box {
-    height: 35vh;
-    width: 60vh;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
+    gap: 20px;
+    justify-content: start;
+    padding: 10px;
+}
+
+#hero #main-content #box {
+    height: 42vh;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    color: #24315E;
+    background-color: #24315E;
+    color: white;
     text-align: justify;
     padding: 10px;
+    box-shadow: 0px 0px 3px;
 }
 
 #hero #main-content #box div {
@@ -317,12 +321,13 @@ body {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 50px;
 }
 
 #hero #main-content #box img {
-    height: 15vh;
-    width: 57.5vh;
-    object-fit: contain;
+    height: 20vh;
+    width: 50%;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0px 0px 1px transparent;
@@ -330,30 +335,167 @@ body {
     background-color: transparent;
 }
 
-#hero #main-content #box #refresh {
-    padding: 8px 10px;
-    border-radius: 20px;
-    background-color: #24315E;
-    color: white;
-    border: 1px solid #24315E;
-}
-
-#hero #main-content #box #refresh:hover {
-    background-color: white;
-    border: 1px solid #24315E;
-    color: #24315E;
-}
 
 #hero #main-content #box button {
-    padding: 8px 20px;
+    padding: 10px 20px;
     font-weight: bold;
-    color: white;
-    background-color: #24315E;
-    border: 1px solid #24315E;
+    color: #24315E;
+    background-color: white;
+    border: 1px solid white;
 }
 
 #hero #main-content #box button:hover {
+    background-color: #24315E;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+aside {
+    position: absolute;
+    right: 75px;
+    height: 87vh;
+    width: 50vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px;
+    background-color: #24315E;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color: white;
+}
+aside img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
+aside div{
+    margin-top: 10px;
+    height: 8vh;
     background-color: white;
     color: #24315E;
+    width: 90%;
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+aside div #arrow1{
+    border: 1px solid green;
+    padding: 6px 5px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    cursor: alias;
+}
+aside div #arrow2{
+    border: 1px solid red;
+    padding: 6px 5px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    cursor: alias;
+}
+aside div i{
     cursor: pointer;
+}
+aside div p{
+    font-weight: bold;
+}
+aside #flow
+{
+    height:45vh;
+    width: 90%;
+    background-color: #24315E;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+}
+aside #flow #chart{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    background-color: #24315E;
+    gap: 5px;
+}
+
+aside #flow #chart #div1{
+   height: 20vh;
+   width: 3vh;
+   background-color: green;
+   border-radius: 0px;
+}
+aside #flow #chart #div2{
+    height: 15vh;
+    width: 3vh;
+    background-color: red;
+    border-radius: 0px;
+ }
+ aside #flow #chart #div3{
+    height: 20vh;
+    width: 3vh;
+    background-color: green;
+    border-radius: 0px;
+ }
+ aside #flow #chart #div4{
+    height: 25vh;
+    width: 3vh;
+    background-color: red;
+    border-radius: 0px;
+ }
+ aside #flow #chart #div5{
+    height: 10vh;
+    width: 3vh;
+    background-color: red;
+    border-radius: 0px;
+ }
+ aside #flow #chart #div6{
+    height: 30vh;
+    width: 3vh;
+    background-color: green;
+    border-radius: 0px;
+ }
+ aside #flow #chart #div7{
+    height: 20vh;
+    width: 3vh;
+    background-color: green;
+    border-radius: 0px;
+ }
+ aside #flow #chart #div8{
+    height: 3vh;
+    width: 3vh;
+    background-color: red;
+    border-radius: 0px;
+ }
+aside #flow #describe1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: transparent;
+    color: white;
+}
+aside #flow #describe1 i{
+    color: green;
+}
+
+aside #flow #describe2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: transparent;
+    color: white;
+}
+aside #flow #describe2 i{
+    color: red;
 }

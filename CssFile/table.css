@@ -258,7 +258,7 @@ body {
 }
 
 #hero #navbar #third input {
-    width: 250px;
+    width: 75%;
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
@@ -270,6 +270,7 @@ body {
 }
 
 #hero #navbar #third button {
+    width: 25%;
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -292,7 +293,10 @@ body {
     align-items: center;
     justify-content: start;
     overflow-y: scroll;
-    border: 2px solid #24315E;
+    /* border: 2px solid #24315E; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    background-color: #24315E;
 }
 
 table th,
@@ -309,14 +313,14 @@ table #head {
 }
 
 table th {
-    background-color: gold;
-    border: 1px solid gold;
+    background-color: yellow;
+    border: 1px solid yellow;
     color: #24315E;
 }
 
 table td {
     background-color: #24315E;
-    border: 1px solid #24315E;
+    border: 1px solid white;
     font-size: 12px;
     font-weight: bold;
     color: white;

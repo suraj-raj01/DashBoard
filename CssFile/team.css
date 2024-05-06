@@ -80,6 +80,21 @@ body {
         color: white;
         box-shadow: 0px 0px 5px;
     }
+    #hero #main-content #team div {
+        color: white;
+    }
+    #hero #main-content #team h4{
+        color: white;
+    }
+    #hero #main-content #team button {
+        color: #24315E;
+        background-color: white;
+    }
+    
+    #hero #main-content #team button:hover {
+        background-color: #24315E;
+        color: white;
+    }
 }
 
 #main {
@@ -264,7 +279,7 @@ body {
 }
 
 #hero #navbar #third input {
-    width: 250px;
+    width: 75%;
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
@@ -276,6 +291,7 @@ body {
 }
 
 #hero #navbar #third button {
+    width: 25%;
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -343,7 +359,6 @@ body {
     font-weight: bold;
     color: white;
     font-size: 18px;
-    border-radius: 100px;
     background-color: #24315E;
     border: 1px solid #24315E;
 }
