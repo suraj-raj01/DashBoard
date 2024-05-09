@@ -384,12 +384,12 @@ aside div{
 }
 
 aside div #arrow1{
-    border: 1px solid green;
+    border: 1px solid yellowgreen;
     padding: 6px 5px;
     border-radius: 20px;
-    background-color: green;
+    background-color: yellowgreen;
     color: white;
-    cursor: alias;
+    cursor: alias;   
 }
 aside div #arrow2{
     border: 1px solid red;
@@ -429,7 +429,7 @@ aside #flow #chart{
 aside #flow #chart #div1{
    height: 20vh;
    width: 3vh;
-   background-color: green;
+   background-color: yellowgreen;
    border-radius: 0px;
 }
 aside #flow #chart #div2{
@@ -441,17 +441,17 @@ aside #flow #chart #div2{
  aside #flow #chart #div3{
     height: 20vh;
     width: 3vh;
-    background-color: green;
+    background-color: yellowgreen;
     border-radius: 0px;
  }
  aside #flow #chart #div4{
     height: 25vh;
     width: 3vh;
-    background-color: red;
+    background-color:yellowgreen;
     border-radius: 0px;
  }
  aside #flow #chart #div5{
-    height: 10vh;
+    height: 20vh;
     width: 3vh;
     background-color: red;
     border-radius: 0px;
@@ -459,17 +459,17 @@ aside #flow #chart #div2{
  aside #flow #chart #div6{
     height: 30vh;
     width: 3vh;
-    background-color: green;
+    background-color: yellowgreen;
     border-radius: 0px;
  }
  aside #flow #chart #div7{
     height: 20vh;
     width: 3vh;
-    background-color: green;
+    background-color: yellowgreen;
     border-radius: 0px;
  }
  aside #flow #chart #div8{
-    height: 3vh;
+    height: 18vh;
     width: 3vh;
     background-color: red;
     border-radius: 0px;
@@ -484,7 +484,7 @@ aside #flow #describe1{
     color: white;
 }
 aside #flow #describe1 i{
-    color: green;
+    color: yellowgreen;
 }
 
 aside #flow #describe2{
