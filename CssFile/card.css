@@ -75,10 +75,6 @@ body {
         color: black;
     }
 
-    #div2 #box1 {
-        background-color: #0080004f;
-    }
-
     #div2 #box1 h2 {
         color: #24315E;
     }
@@ -88,7 +84,20 @@ body {
     }
 
     #hero #main-content #main-box1 #box2 {
+        background-color: #24315E;
+    }
+    #hero #main-content #main-box1 #box2 p{
+        color: white;
+    }
+    #hero #main-content #main-box1 #box1 #div2 #box1 h2{
+        color: white;
+    }
+    #hero #main-content #main-box1 #box2 h2{
+        color: white;
+    }
+    #hero #main-content #main-box1 #box2 i{
         background-color: aliceblue;
+        color: #24315E;
     }
 }
 
