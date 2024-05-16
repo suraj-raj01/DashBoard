@@ -66,13 +66,8 @@ body {
         border: 1px solid white;
     }
 
-    #hero #navbar #Time {
-        background-color: white;
-        color: #24315E;
-    }
-
     #hero #navbar #Time p {
-        color: black;
+        color: white;
     }
 
     #div2 #box1 h2 {

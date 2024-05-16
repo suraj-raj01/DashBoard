@@ -65,14 +65,8 @@ body {
     #hero #navbar #third button {
         border: 1px solid white;
     }
-
-    #hero #navbar #Time {
-        background-color: white;
-        color: #24315E;
-    }
-
     #hero #navbar #Time p {
-        color: black;
+        color: white;
     }
 }
 

@@ -66,19 +66,17 @@ body {
         border: 1px solid white;
     }
 
-    #hero #navbar #Time {
-        background-color: white;
-        color: #24315E;
-    }
-
     #hero #navbar #Time p {
-        color: black;
+        color: white;
     }
 
     #main-content h5,
     h4,
     h3 {
         color: white;
+    }
+    aside div{
+        background-color: #4444449e;
     }
 }
 
