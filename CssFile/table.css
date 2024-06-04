@@ -146,43 +146,6 @@ body {
     border-radius: 15px;
 }
 
-#left #premium #box {
-    height: 25vh;
-    width: 80%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    text-align: center;
-    padding: 10px 0px;
-    gap: 15px;
-    color: #24315E;
-    text-shadow: 3px 3px 5px white;
-    font-weight: bold;
-    background-color: aliceblue;
-    background-image: url('https://media.restless.co.uk/uploads/2022/01/bank-fees-explained.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 0px 5px #24315E;
-}
-
-#left #premium #box #btn {
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid #24315E;
-    font-weight: bold;
-    color: white;
-    background-color: #24315E;
-    cursor: pointer;
-}
-
-#left #premium #box #btn:hover {
-    background-color: white;
-    color: #24315E;
-}
-
 #hero {
     height: 100vh;
     width: 85%;
@@ -308,8 +271,10 @@ table #head {
 
 table th {
     background-color: #24315E;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid;
+    color: #d6c7c7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 table td {
