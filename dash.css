@@ -249,12 +249,23 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 20px;
     justify-content: start;
     padding: 10px;
 }
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 200px 0px;
+    font-weight: bold;
+    font-size: 100px;
+    color: white; 
+    background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
 
+/*
 #hero #main-content #box {
     height: 42vh;
     width: 60%;
@@ -305,7 +316,6 @@ body {
 }
 
 aside {
-    /* position: absolute; */
     margin: 0 auto;
     height: 87vh;
     width: 50vh;
@@ -319,6 +329,7 @@ aside {
     justify-content: start;
     color: white;
 }
+
 aside img{
     height: 90px;
     width: 90px;
@@ -453,3 +464,4 @@ aside #flow #describe2{
 aside #flow #describe2 i{
     color: red;
 }
+*/

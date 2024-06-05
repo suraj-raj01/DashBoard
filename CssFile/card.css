@@ -268,22 +268,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
-#hero #main-content #main-box1 {
+#hero #main-content h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 200px 0px;
+    font-weight: bold;
+    font-size: 100px;
+    color: white; 
+    background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+/* #hero #main-content #main-box1 {
     height: 55vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* border: 1px solid; */
 }
 
 #hero #main-content #main-box1 #box1 {
     height: 100%;
     width: 55%;
-    /* border: 1px solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,7 +305,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid; */
 }
 
 #hero #main-content #main-box1 #box1 #div1 #box {
@@ -326,7 +333,6 @@ i {
 #hero #main-content #main-box1 #box1 #div2 {
     height: 30vh;
     width: 100%;
-    /* border: 1px solid; */
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -336,7 +342,6 @@ i {
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box1 {
-    /* border: 1px solid; */
     height: 30vh;
     width: 50%;
     display: flex;
@@ -367,7 +372,6 @@ i {
 }
 
 #hero #main-content #main-box1 #box1 #div2 #box2 {
-    /* border: 1px solid; */
     height: 25vh;
     width: 45%;
     padding: 5px;
@@ -392,7 +396,6 @@ i {
 #hero #main-content #main-box1 #box2 {
     height: 50vh;
     width: 30%;
-    /* border: 1px solid; */
     border-radius: 10px;
     background-color: #24315E;
     border-radius: 15px;
@@ -451,7 +454,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* border: 1px solid; */
+
 }
 
 #hero #main-content #main-box2 #box {
@@ -527,4 +530,4 @@ i {
 #hero #main-content #main-box2 #box a {
     text-decoration: none;
     color: white;
-}
+} */
