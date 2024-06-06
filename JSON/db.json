@@ -1,25 +1,3 @@
 {
-  "student": [
-    {
-      "id": "1",
-      "name": "SURAJ KUMAR",
-      "address": "BHOPAL",
-      "course": "JAVA FULLSTACK",
-      "grade": "A+"
-    },
-    {
-      "id": "2",
-      "name": "RAJAN KUMAR",
-      "address": "BIHAR",
-      "course": "JAVA FULLSTACK",
-      "grade": "A+"
-    },
-    {
-      "id": "3",
-      "name": "HARIOM KUMAR",
-      "address": "BHOPAL",
-      "course": "MARKETING",
-      "grade": "A"
-    }
-  ]
+  "student": []
 }

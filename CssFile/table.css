@@ -263,6 +263,14 @@ td {
     text-align: justify;
     font-weight: bold;
 }
+table button{
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
 
 table #head {
     position: sticky;

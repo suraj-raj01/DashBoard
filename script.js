@@ -63,11 +63,20 @@ async function fet() {
  <td>${e.address}</td>
  <td>${e.course}</td>
  <td>${e.grade}</td>
+ <td><button onclick="mydelete('${e.id}')">Delete</button></td>
  </tr>
 `).join(" ");
     p.innerHTML = s;
 }
+fet();
 
+function mydelete(id)
+{
+    fetch(`http://localhost:3000/student/${id}`,{
+        method:"DELETE"
+    })
+    .then(res=>alert("data deleted Successfulley"))
+}
 
 let perc = document.getElementById('perc');
 function per() {
