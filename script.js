@@ -30,15 +30,32 @@ setInterval(() => {
     document.getElementById('date').innerHTML = date;
 })
 
+// Insert Data
+function add()
+{
+    let form_data = {
+        "id":document.getElementById("id").value,
+        "name":document.getElementById("name").value,
+        "address":document.getElementById("address").value,
+        "course":document.getElementById("course").value,
+        "grade":document.getElementById("grade").value
+    }
+    fetch("http://localhost:3000/student",{
+        method:"POST",
+        headers:{
+            'Content-type':'application/json'
+        },
+        body:JSON.stringify(form_data)
+    })
+}
 
 // fetching data
 
 async function fet() {
     let a = await fetch("http://localhost:3000/student");
     let res = await a.json();
-    let ot = "";
     let p = document.getElementById('display_data')
-    let s = res.map((e) => ot +=
+    let s = res.map((e) =>
         `
  <tr>
  <td>${e.id}</td>
