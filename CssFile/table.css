@@ -88,7 +88,6 @@ body {
     justify-content: start;
     background-color: black;
     /* gap: 25px; */
-    /* border: 2px solid; */
 }
 
 #left p {
@@ -203,6 +202,7 @@ body {
     border-radius: 50px;
     background-color: white;
     color: #24315E;
+    box-shadow: 0px 0px 2px;
 }
 
 #hero #navbar #second #mode i {
@@ -242,7 +242,7 @@ body {
 }
 
 #hero #main-content {
-    margin: auto;
+    margin: 8px auto;
     height: 90vh;
     width: 90%;
     display: flex;
@@ -259,17 +259,24 @@ body {
 table th,
 td {
     border: 1px solid;
-    padding: 12px 10px;
+    padding: 10px 10px;
     text-align: justify;
     font-weight: bold;
+    text-align: center;
 }
 table button{
-    padding: 10px 20px;
-    border: none;
+    padding: 10px 18px;
+    border: 1px solid transparent;
     font-weight: bold;
-    background-color: red;
-    color: white;
+    background-color: #24315E;
+    color: #d6c7c7;
     cursor: pointer;
+    border-radius: 5px;
+}
+table button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid;
 }
 
 table #head {
@@ -292,12 +299,9 @@ table td {
     font-weight: bold;
     color: #d6c7c7;
 }
-
-table td:hover {
-    background-color: white;
-    color: #24315E;
-    cursor: pointer;
-    border: 1px solid white;
+tbody td{
+    padding: 5px 45px;
+    text-align: start;
 }
 
 #bottom {

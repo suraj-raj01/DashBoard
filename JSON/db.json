@@ -1,3 +1,11 @@
 {
-  "student": []
+  "student": [
+    {
+      "id": "1",
+      "name": "SURAJ KUMAR",
+      "address": "BHOPAL",
+      "course": "B.TECH",
+      "grade": "A"
+    }
+  ]
 }
