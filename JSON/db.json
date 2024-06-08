@@ -9,16 +9,9 @@
     },
     {
       "id": "2",
-      "name": "RAJAN KUMAR",
-      "address": "BIHAR",
-      "course": "B.TECH",
-      "grade": "A+"
-    },
-    {
-      "id": "3",
-      "name": "RAHUL KUMAR",
+      "name": "HARIOM KUMAR",
       "address": "BHOPAL",
-      "course": "BCA",
+      "course": "JAVA FULLSTACK",
       "grade": "A+"
     }
   ]
