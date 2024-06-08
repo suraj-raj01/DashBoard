@@ -281,6 +281,17 @@ body {
     color: white;
     border-radius: 5px;
 }
+#hero #main-content form #submit{
+    padding: 12px;
+    background-color: #24315E;
+    color: white;
+    cursor: pointer;
+}
+#hero #main-content form #submit:hover{
+    background-color: white;
+    color: #24315E;
+}
+
 #bottom {
     height: 10vh;
     width: 90%;

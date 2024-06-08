@@ -5,7 +5,21 @@
       "name": "SURAJ KUMAR",
       "address": "BHOPAL",
       "course": "B.TECH",
-      "grade": "A"
+      "grade": "A+"
+    },
+    {
+      "id": "2",
+      "name": "RAJAN KUMAR",
+      "address": "BIHAR",
+      "course": "B.TECH",
+      "grade": "A+"
+    },
+    {
+      "id": "3",
+      "name": "RAHUL KUMAR",
+      "address": "BHOPAL",
+      "course": "BCA",
+      "grade": "A+"
     }
   ]
 }

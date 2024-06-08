@@ -4,13 +4,9 @@ setInterval(() => {
     t.innerHTML = time.toLocaleTimeString();
 }, 1000);
 
-function login() {
-
-}
 // change mode (dark/light)
 function mode() {
-    var element = document.body;
-    element.classList.toggle("mode");
+    document.body.classList.toggle("mode");
 }
 //print function
 function prt() {
@@ -31,21 +27,20 @@ setInterval(() => {
 })
 
 // Insert Data
-function add()
-{
+function add() {
     let form_data = {
-        "id":document.getElementById("id").value,
-        "name":document.getElementById("name").value,
-        "address":document.getElementById("address").value,
-        "course":document.getElementById("course").value,
-        "grade":document.getElementById("grade").value
+        "id": document.getElementById("id").value,
+        "name": document.getElementById("name").value,
+        "address": document.getElementById("address").value,
+        "course": document.getElementById("course").value,
+        "grade": document.getElementById("grade").value
     }
-    fetch("http://localhost:3000/student",{
-        method:"POST",
-        headers:{
-            'Content-type':'application/json'
+    fetch("http://localhost:3000/student", {
+        method: "POST",
+        headers: {
+            'Content-type': 'application/json'
         },
-        body:JSON.stringify(form_data)
+        body: JSON.stringify(form_data)
     })
 }
 
@@ -64,24 +59,40 @@ async function fet() {
  <td>${e.course}</td>
  <td>${e.grade}</td>
  <td><button onclick="mydelete('${e.id}')">Delete</button></td>
- <td><button onclick="mymodify('${e.id}')">Modify</button></td>
+ <td><button onclick="myedit('${e.id}')">Modify</button></td>
  </tr>
 `).join(" ");
     p.innerHTML = s;
 }
 fet();
 
-function mydelete(id)
-{
-    fetch(`http://localhost:3000/student/${id}`,{
-        method:"DELETE"
+function mydelete(id) {
+    fetch(`http://localhost:3000/student/${id}`, {
+        method: "DELETE"
     })
-    .then(res=>alert("Do you want to Delete Data"))
+    .then(res => alert("Do you want to Delete Data"))
 }
 
-function mymodify(id)
-{
-    fetch(`http://localhost:3000/student/${id}`,{
-        method:""
+let strid = 0;
+function myedit(id) {
+    strid = id;
+    document.getElementById("myfrm").style.display = "block";
+}
+
+function editdata() {
+    let myfrmdata = {
+        id: document.getElementById("id").value,
+        name: document.getElementById("name").value,
+        address: document.getElementById("address").value,
+        course: document.getElementById("course").value,
+        grade: document.getElementById("grade").value
+    }
+    fetch(`http://localhost:3000/student/${strid}`, {
+        method: "PUT",
+        headers: {
+            'Content-type': 'application/json'
+        },
+        body: JSON.stringify(myfrmdata)
     })
+        .then(res => alert("data edited!!"));
 }
