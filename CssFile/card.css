@@ -263,18 +263,20 @@ body {
     color: white;
 }
 
-#hero #main-content {
-    height: 87vh;
-    width: 100%;
+#main-content{
+    margin-bottom: 60px;
+    height: 80vh;
+    width: 90%;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
+    background-color: black;
 }
 
-#hero #main-content h1{
+#main-content h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 200px 0px;
     font-weight: bold;
     font-size: 100px;
     color: white; 

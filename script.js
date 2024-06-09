@@ -26,6 +26,30 @@ setInterval(() => {
     document.getElementById('date').innerHTML = date;
 })
 
+
+
+// fetching data
+
+async function fet() {
+    let a = await fetch("http://localhost:3000/student");
+    let res = await a.json();
+    let p = document.getElementById('display_data')
+    let s = res.map((e) =>
+        `
+ <tr>
+ <td>${e.id}</td>
+ <td>${e.name}</td>
+ <td>${e.address}</td>
+ <td>${e.course}</td>
+ <td>${e.grade}</td>
+ <td><button onclick="mydelete('${e.id}')">Delete</button></td>
+ <td><button onclick="myedit('${e.id}')">Update</button></td>
+ </tr>
+`).join(" ");
+    p.innerHTML = s;
+}
+fet();
+
 // Insert Data
 function add() {
     let form_data = {
@@ -43,28 +67,6 @@ function add() {
         body: JSON.stringify(form_data)
     })
 }
-
-// fetching data
-
-async function fet() {
-    let a = await fetch("http://localhost:3000/student");
-    let res = await a.json();
-    let p = document.getElementById('display_data')
-    let s = res.map((e) =>
-        `
- <tr>
- <td>${e.id}</td>
- <td>${e.name}</td>
- <td>${e.address}</td>
- <td>${e.course}</td>
- <td>${e.grade}</td>
- <td><button onclick="mydelete('${e.id}')">Delete</button></td>
- <td><button onclick="myedit('${e.id}')">Modify</button></td>
- </tr>
-`).join(" ");
-    p.innerHTML = s;
-}
-fet();
 
 function mydelete(id) {
     fetch(`http://localhost:3000/student/${id}`, {

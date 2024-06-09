@@ -269,6 +269,7 @@ body {
     color: white; 
     background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
 /*
