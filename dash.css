@@ -177,6 +177,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     color: #24315E;
+    cursor: pointer;
 }
 
 #hero #navbar #second {

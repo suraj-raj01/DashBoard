@@ -11,28 +11,7 @@
       "id": "2",
       "name": "RAHUL KUMAR",
       "address": "BHOPAL",
-      "course": "JAVA FULLSTACK",
-      "grade": "A+"
-    },
-    {
-      "id": "3",
-      "name": "HARIOM KUMAR",
-      "address": "BIHAR",
-      "course": "BBA",
-      "grade": "A+"
-    },
-    {
-      "id": "4",
-      "name": "BITTU KUMAR",
-      "address": "BIHAR",
-      "course": "DATA SCIENCE",
-      "grade": "A+"
-    },
-    {
-      "id": "5",
-      "name": "SHIVAM KUMAR",
-      "address": "BHOPAL",
-      "course": "MERN FULLSTACK",
+      "course": "BCA",
       "grade": "A+"
     }
   ]

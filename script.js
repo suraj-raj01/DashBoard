@@ -72,7 +72,7 @@ function mydelete(id) {
     fetch(`http://localhost:3000/student/${id}`, {
         method: "DELETE"
     })
-    .then(res => alert("Do you want to Delete Data"))
+        .then(res => alert("Do you want to Delete Data"))
 }
 
 let strid = 0;
@@ -83,11 +83,11 @@ function myedit(id) {
 
 function editdata() {
     let myfrmdata = {
-        id: document.getElementById("id").value,
-        name: document.getElementById("name").value,
-        address: document.getElementById("address").value,
-        course: document.getElementById("course").value,
-        grade: document.getElementById("grade").value
+        "id": document.getElementById("id").value,
+        "name": document.getElementById("name").value,
+        "address": document.getElementById("address").value,
+        "course": document.getElementById("course").value,
+        "grade": document.getElementById("grade").value
     }
     fetch(`http://localhost:3000/student/${strid}`, {
         method: "PUT",
