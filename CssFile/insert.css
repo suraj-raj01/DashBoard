@@ -257,9 +257,11 @@ body {
     box-shadow: 0px 0px 5px;
     background-color: black;
 }
-#hero #main-content h3{
+
+#hero #main-content h3 {
     color: white;
 }
+
 #hero #main-content form {
     height: 50vh;
     width: 35%;
@@ -272,7 +274,7 @@ body {
     border-radius: 15px;
 }
 
-#hero #main-content form input{
+#hero #main-content form input {
     padding: 10px 15px;
     font-weight: bold;
     width: 300px;
@@ -281,13 +283,15 @@ body {
     color: white;
     border-radius: 5px;
 }
-#hero #main-content form #submit{
+
+#hero #main-content form #submit {
     padding: 12px;
     background-color: #24315E;
     color: white;
     cursor: pointer;
 }
-#hero #main-content form #submit:hover{
+
+#hero #main-content form #submit:hover {
     background-color: white;
     color: #24315E;
 }

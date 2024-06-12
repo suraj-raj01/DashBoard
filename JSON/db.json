@@ -13,6 +13,13 @@
       "address": "BHOPAL",
       "course": "BCA",
       "grade": "A+"
+    },
+    {
+      "id": "3",
+      "name": "KARAN KUMAR",
+      "address": "REVA (MP)",
+      "course": "BCA",
+      "grade": "A"
     }
   ]
 }

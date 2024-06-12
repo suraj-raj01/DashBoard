@@ -81,16 +81,20 @@ body {
     #hero #main-content #main-box1 #box2 {
         background-color: #24315E;
     }
-    #hero #main-content #main-box1 #box2 p{
+
+    #hero #main-content #main-box1 #box2 p {
         color: white;
     }
-    #hero #main-content #main-box1 #box1 #div2 #box1 h2{
+
+    #hero #main-content #main-box1 #box1 #div2 #box1 h2 {
         color: white;
     }
-    #hero #main-content #main-box1 #box2 h2{
+
+    #hero #main-content #main-box1 #box2 h2 {
         color: white;
     }
-    #hero #main-content #main-box1 #box2 i{
+
+    #hero #main-content #main-box1 #box2 i {
         background-color: aliceblue;
         color: #24315E;
     }
@@ -263,7 +267,7 @@ body {
     color: white;
 }
 
-#main-content{
+#main-content {
     margin-bottom: 60px;
     height: 80vh;
     width: 90%;
@@ -275,262 +279,12 @@ body {
     background-color: black;
 }
 
-#main-content h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#main-content h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 100px;
-    color: white; 
+    color: white;
     background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
-/* #hero #main-content #main-box1 {
-    height: 55vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#hero #main-content #main-box1 #box1 {
-    height: 100%;
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-}
-
-#hero #main-content #main-box1 #box1 #div1 {
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#hero #main-content #main-box1 #box1 #div1 #box {
-    height: 20vh;
-    width: 30%;
-    background-color: #24315E;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    padding: 0px 30px;
-    gap: 10px;
-    border-radius: 15px;
-}
-
-#hero #main-content #main-box1 #box1 #div1 #box p {
-    color: white;
-}
-
-#hero #main-content #main-box1 #box1 #div1 #box #money,
-i {
-    font-weight: bold;
-    color: white;
-}
-
-#hero #main-content #main-box1 #box1 #div2 {
-    height: 30vh;
-    width: 100%;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #24315E;
-    color: white;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box1 {
-    height: 30vh;
-    width: 50%;
-    display: flex;
-    align-items: start;
-    padding: 0px 30px;
-    gap: 10px;
-    justify-content: center;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box1 p {
-    color: white;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box1 button {
-    padding: 12px 20px;
-    border-radius: 20px;
-    border: 1px solid white;
-    background-color: white;
-    color: #24315E;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box1 button:hover {
-    background-color: #24315E;
-    color: white;
-    border: 1px solid;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box2 {
-    height: 25vh;
-    width: 45%;
-    padding: 5px;
-    background-color: #24315E;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box2 img {
-    height: 30vh;
-    width: 100%;
-    object-fit: cover;
-    transition: 1s;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: pointer;
-}
-
-#hero #main-content #main-box1 #box1 #div2 #box2 img:hover {
-    transform: scale(.9);
-    transition: .5s;
-}
-
-#hero #main-content #main-box1 #box2 {
-    height: 50vh;
-    width: 30%;
-    border-radius: 10px;
-    background-color: #24315E;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    color: white;
-}
-
-#hero #main-content #main-box1 #box2 #date {
-    margin-top: 10px;
-    padding: 0px 20px;
-}
-
-#hero #main-content #main-box1 #box2 h2 {
-    padding: 10px 20px;
-}
-
-#hero #main-content #main-box1 #box2 #insta,
-#whats,
-#face,
-#yout,
-#google {
-    width: 100%;
-    padding: 5px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-}
-
-#hero #main-content #main-box1 #box2 i {
-    border: 1px solid;
-    padding: 7px 8px;
-    border-radius: 20px;
-    font-size: 14px;
-    border: none;
-    background-color: aliceblue;
-    color: #24315E;
-}
-
-#hero #main-content #main-box1 #box2 meter {
-    height: 1.6vh;
-    width: 65%;
-}
-
-#hero #main-content #main-box1 #box2 p {
-    font-weight: bold;
-    font-size: 14px;
-}
-
-#hero #main-content #main-box2 {
-    height: 30vh;
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-
-#hero #main-content #main-box2 #box {
-    height: 30vh;
-    width: 30%;
-    background-color: #24315E;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap: 15px;
-    padding: 10px 30px;
-    border-radius: 15px;
-    color: white;
-}
-
-#hero #main-content #main-box2 #box i {
-    font-size: 18px;
-    border: none;
-    padding: 10px 11px;
-    border-radius: 50px;
-    color: #24315E;
-    background-color: aliceblue;
-}
-
-#hero #main-content #main-box2 #box i:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-#hero #main-content #main-box2 #box #shoping,
-#movies,
-#steps {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    gap: 40px;
-    justify-content: space-between;
-}
-
-#hero #main-content #main-box2 #box p {
-    font-weight: bold;
-    font-size: 12px;
-    color: white;
-}
-
-#hero #main-content #main-box2 #box #prize {
-    padding: 2px 10px;
-    border: 1px solid white;
-    color: red;
-    border-radius: 20px;
-    background-color: aliceblue;
-}
-
-#hero #main-content #main-box2 #box #transfer {
-    padding: 2px 10px;
-    border: 1px solid white;
-    color: green;
-    border-radius: 20px;
-    background-color: aliceblue;
-}
-
-#hero #main-content #main-box2 #box iframe {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#hero #main-content #main-box2 #box a {
-    text-decoration: none;
-    color: white;
-} */

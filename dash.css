@@ -75,7 +75,8 @@ body {
     h3 {
         color: white;
     }
-    #hero #main-content #box{
+
+    #hero #main-content #box {
         box-shadow: 0px 0px 5px white;
     }
 }
@@ -253,7 +254,8 @@ body {
     justify-content: start;
     padding: 10px;
 }
-#hero #main-content #box{
+
+#hero #main-content #box {
     height: 80vh;
     width: 90%;
     background-color: black;
@@ -263,213 +265,16 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 5px #24315E;
 }
-#hero #main-content #box h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+#hero #main-content #box h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 100px;
-    color: white; 
+    color: white;
     background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
+
 /*
-#hero #main-content #box {
-    height: 42vh;
-    width: 60%;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #24315E;
-    color: white;
-    text-align: justify;
-    padding: 10px;
-    box-shadow: 0px 0px 3px;
-}
-
-#hero #main-content #box div {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 50px;
-}
-
-#hero #main-content #box img {
-    height: 20vh;
-    width: 50%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 0px 0px 1px transparent;
-    border-radius: 8px;
-    background-color: transparent;
-}
-
-
-#hero #main-content #box button {
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #24315E;
-    background-color: white;
-    border: 1px solid white;
-}
-
-#hero #main-content #box button:hover {
-    background-color: #24315E;
-    color: aliceblue;
-    cursor: pointer;
-}
-
-aside {
-    margin: 0 auto;
-    height: 87vh;
-    width: 50vh;
-    border-radius: 20px;
-    box-shadow: 0px 0px 5px white;
-    background-color: black;
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    color: white;
-}
-
-aside img{
-    height: 90px;
-    width: 90px;
-    border-radius: 50px;
-}
-aside div{
-    margin-top: 10px;
-    height: 8vh;
-    background-color: white;
-    color: black;
-    width: 90%;
-    display: flex;
-    padding: 0px 10px;
-    align-items: center;
-    border-radius: 5px;
-    justify-content: space-between;
-}
-
-aside div #arrow1{
-    border: 1px solid yellowgreen;
-    padding: 6px 5px;
-    border-radius: 20px;
-    background-color: yellowgreen;
-    color: white;
-    cursor: alias;   
-}
-aside div #arrow2{
-    border: 1px solid red;
-    padding: 6px 5px;
-    border-radius: 20px;
-    background-color: red;
-    color: white;
-    cursor: alias;
-}
-aside div i{
-    cursor: pointer;
-}
-aside div p{
-    font-weight: bold;
-}
-aside #flow
-{
-    height:45vh;
-    width: 90%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    color: white;
-}
-aside #flow #chart{
-    height: 35vh;
-    width: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: space-evenly;
-    background-color: black;
-    gap: 5px;
-}
-
-aside #flow #chart #div1{
-   height: 20vh;
-   width: 3vh;
-   background-color: yellowgreen;
-   border-radius: 0px;
-}
-aside #flow #chart #div2{
-    height: 15vh;
-    width: 3vh;
-    background-color: red;
-    border-radius: 0px;
- }
- aside #flow #chart #div3{
-    height: 20vh;
-    width: 3vh;
-    background-color: yellowgreen;
-    border-radius: 0px;
- }
- aside #flow #chart #div4{
-    height: 25vh;
-    width: 3vh;
-    background-color:yellowgreen;
-    border-radius: 0px;
- }
- aside #flow #chart #div5{
-    height: 20vh;
-    width: 3vh;
-    background-color: red;
-    border-radius: 0px;
- }
- aside #flow #chart #div6{
-    height: 30vh;
-    width: 3vh;
-    background-color: yellowgreen;
-    border-radius: 0px;
- }
- aside #flow #chart #div7{
-    height: 20vh;
-    width: 3vh;
-    background-color: yellowgreen;
-    border-radius: 0px;
- }
- aside #flow #chart #div8{
-    height: 18vh;
-    width: 3vh;
-    background-color: red;
-    border-radius: 0px;
- }
-aside #flow #describe1{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 15px;
-    background-color: transparent;
-    color: white;
-}
-aside #flow #describe1 i{
-    color: yellowgreen;
-}
-
-aside #flow #describe2{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 15px;
-    background-color: transparent;
-    color: white;
-}
-aside #flow #describe2 i{
-    color: red;
-}
-*/
