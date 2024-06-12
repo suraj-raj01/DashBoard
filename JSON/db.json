@@ -36,18 +36,11 @@
       "grade": "A+"
     },
     {
-      "id": "7",
-      "name": "SHIVAM KUMAR",
+      "id": "6",
+      "name": "AMIT KUMAR",
       "address": "BIHAR",
-      "course": "BCA",
+      "course": "B.TECH",
       "grade": "A"
-    },
-    {
-      "id": "8",
-      "name": "ANIKET KUMAR",
-      "address": "UP",
-      "course": "BBA",
-      "grade": "A+"
     }
   ]
 }

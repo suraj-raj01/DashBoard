@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: black;
+        background-color: #091C1E;
         color: white;
     }
 
@@ -42,6 +42,7 @@ body {
     #hero {
         background-color: black;
         color: white;
+        box-shadow: 0px 0px 5px white;
     }
 
     #hero p {
@@ -116,7 +117,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    background-color: black;
+    background-color: #091C1E;
     /* gap: 25px; */
     /* border: 2px solid; */
 }
@@ -275,7 +276,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #091C1E;
+    box-shadow: 0px 0px 5px;
 }
 
 #main-content h1 {
@@ -283,7 +285,7 @@ body {
     font-weight: bold;
     font-size: 100px;
     color: white;
-    background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
+    /* background: url("https://e0.pxfuel.com/wallpapers/581/525/desktop-wallpaper-dual-screen-3d-high-definitions-3d-dual-monitor.jpg") no-repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }

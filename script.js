@@ -92,9 +92,13 @@ function editdata() {
     fetch(`http://localhost:3000/student/${strid}`, {
         method: "PUT",
         headers: {
-            'Content-type': 'application/json'
+            'Content-type':'application/json'
         },
         body: JSON.stringify(myfrmdata)
     })
         .then(res => alert("data edited!!"));
 }
+
+$(document).ready(function(){
+    $('#main-content').fadeIn(2000);
+})
