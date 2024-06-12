@@ -9,17 +9,45 @@
     },
     {
       "id": "2",
+      "name": "RAJAN KUMAR",
+      "address": "BIHAR",
+      "course": " B.TECH ",
+      "grade": "A+"
+    },
+    {
+      "id": "3",
+      "name": "HARIOM KUMAR",
+      "address": "BIHAR",
+      "course": "BBA",
+      "grade": "A"
+    },
+    {
+      "id": "4",
+      "name": "BITTU KUMAR",
+      "address": "BHOPAL",
+      "course": "B.TECH",
+      "grade": "A+"
+    },
+    {
+      "id": "5",
       "name": "RAHUL KUMAR",
       "address": "BHOPAL",
       "course": "BCA",
       "grade": "A+"
     },
     {
-      "id": "3",
-      "name": "KARAN KUMAR",
-      "address": "REVA (MP)",
+      "id": "7",
+      "name": "SHIVAM KUMAR",
+      "address": "BIHAR",
       "course": "BCA",
       "grade": "A"
+    },
+    {
+      "id": "8",
+      "name": "ANIKET KUMAR",
+      "address": "UP",
+      "course": "BBA",
+      "grade": "A+"
     }
   ]
 }
