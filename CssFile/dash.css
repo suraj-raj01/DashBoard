@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #091C1E;
+        background-color: #5B9BBF;
         color: white;
     }
 
@@ -32,7 +32,7 @@ body {
     }
 
     #left a:hover {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #left #Payment {
@@ -54,17 +54,17 @@ body {
     }
 
     #hero #navbar #second i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #second #mode i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #third button {
-        border: 2px solid #24315E;
+        border: 2px solid #5B9BBF;
     }
 
     #hero #navbar #Time p {
@@ -98,7 +98,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     /* gap: 25px; */
     /* border: 2px solid; */
 }
@@ -136,7 +136,7 @@ body {
 
 #left #dash {
     background-color: aliceblue;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #left a i {
@@ -145,7 +145,7 @@ body {
 }
 
 #left a:hover {
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero {
@@ -178,7 +178,7 @@ body {
 #hero #navbar #first #welc {
     font-size: 25px;
     font-weight: bold;
-    color: #24315E;
+    color: #5B9BBF;
     cursor: pointer;
 }
 
@@ -194,7 +194,7 @@ body {
     width: 160px;
     font-weight: bold;
     font-size: 18px;
-    color: #24315E;
+    color: #5B9BBF;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 10px;
@@ -205,13 +205,13 @@ body {
     border: none;
     border-radius: 50px;
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
     box-shadow: 0px 0px 2px;
 }
 
 #hero #navbar #second #mode i {
     padding: 8px 8px;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second a {
@@ -235,9 +235,9 @@ body {
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid #24315E;
+    border: 1px solid #5B9BBF;
     cursor: pointer;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     box-shadow: 0px 0px 1px;
 }
 
@@ -259,12 +259,12 @@ body {
 #hero #main-content #box {
     height: 80vh;
     width: 90%;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px #24315E;
+    box-shadow: 0px 0px 5px #5B9BBF;
 }
 
 #hero #main-content #box h1 {
@@ -278,4 +278,40 @@ body {
     -webkit-text-fill-color: transparent; */
 }
 
-/*
+#alert{
+    display: none;
+    position: fixed;
+    top: 180px;
+    height: 400px;
+    width: 450px;
+    background-color: #5b9abfea;
+    box-shadow: 0px 0px 5px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    /* align-content: center; */
+}
+#alert button{
+    padding: 10px;
+    margin-left: 410px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#alert div{
+    height: 300px;
+    width: 100%;
+    padding: 10px 80px;
+    gap: 10px;
+    font-weight: bold;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}

@@ -14,7 +14,7 @@
 
 <body>
     <div id="main">
-        <div id="left">
+        <div id="left" style="display: none;">
             <p>ADMIN <br>SURAJ KUMAR</p>
             <a href="./index.html" id="dash"><i class="fa-solid fa-list"></i> Dashboard</a>
             <a href="./HtmlFiles/insert.html"><i class="fa-solid fa-table-list"></i> Insert</a>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div id="hero">
-            <div id="navbar">
+            <div id="navbar" style="display: none;">
                 <ul id="first">
                     <li id="welc">Dashboard</li>
                 </ul>
@@ -36,7 +36,7 @@
                     </li>
                 </ul>
                 <ul id="second">
-                    <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                    <li><a href="#" onclick="alert();"><i class="fa-solid fa-bell"></i></a></li>
                     <li id="user"><a href="../Form/form.html" target="_blank"><i class="fa-solid fa-user"></i></a></li>
                     <li id="mode" onclick="mode();"><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
                 </ul>
@@ -49,6 +49,16 @@
                 <div id="box">
                     <h1>DASHBOARD</h1>
                 </div>
+            </div>
+        </div>
+        <div id="alert">
+            <button onclick="cls();">X</button>
+            <h2>Nothing alert!! here..</h2>
+            <div>
+                <p><i class="fa-solid fa-table-list"></i> &nbsp;Insert</p>
+                <p><i class="fa-solid fa-chart-line"></i> &nbsp;Table</p>
+                <p><i class="fa-solid fa-users"></i> &nbsp;Team</p>
+                <p><i class="fa-solid fa-list"></i> &nbsp;DashBoard</p>
             </div>
         </div>
         <script src="./script.js"></script>

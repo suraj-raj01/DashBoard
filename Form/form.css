@@ -49,14 +49,14 @@ form #forgot {
     margin: 0px 0px 0px 250px;
     text-decoration: underline;
     font-weight: bold;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 form #submit {
     padding: 15px;
     border-radius: 50px;
-    background-color: #24315E;
-    border: 1px solid #24315E;
+    background-color: #5B9BBF;
+    border: 1px solid #5B9BBF;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -64,13 +64,13 @@ form #submit {
 
 form #submit:hover {
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
     border: 1px solid;
 }
 
 form a {
     text-decoration: none;
     font-size: 14px;
-    color: #24315E;
+    color: #5B9BBF;
     font-weight: bold;
 }

@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #091C1E;
+        background-color: #5B9BBF;
         color: white;
     }
 
@@ -32,7 +32,7 @@ body {
     }
 
     #left a:hover {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #left #Payment {
@@ -54,17 +54,17 @@ body {
     }
 
     #hero #navbar #second i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #second #mode i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #third button {
-        border: 1px solid white;
+        border: 2px solid #5B9BBF;
     }
 
     #hero #navbar #Time p {
@@ -72,15 +72,15 @@ body {
     }
 
     #div2 #box1 h2 {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #box2 p {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #hero #main-content #main-box1 #box2 {
-        background-color: #24315E;
+        background-color: #5B9BBF;
     }
 
     #hero #main-content #main-box1 #box2 p {
@@ -97,7 +97,7 @@ body {
 
     #hero #main-content #main-box1 #box2 i {
         background-color: aliceblue;
-        color: #24315E;
+        color: #5B9BBF;
     }
 }
 
@@ -117,7 +117,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     /* gap: 25px; */
     /* border: 2px solid; */
 }
@@ -155,11 +155,11 @@ body {
 
 #left #card {
     background-color: aliceblue;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #left #card i {
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #left i {
@@ -168,7 +168,7 @@ body {
 }
 
 #left a:hover {
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero {
@@ -201,7 +201,7 @@ body {
 #hero #navbar #first #welc {
     font-size: 25px;
     font-weight: bold;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second {
@@ -216,7 +216,7 @@ body {
     width: 160px;
     font-weight: bold;
     font-size: 18px;
-    color: #24315E;
+    color: #5B9BBF;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 10px;
@@ -227,13 +227,13 @@ body {
     border: none;
     border-radius: 50px;
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
     box-shadow: 0px 0px 2px;
 }
 
 #hero #navbar #second #mode i {
     padding: 8px 8px;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second a {
@@ -257,9 +257,9 @@ body {
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid #24315E;
+    border: 1px solid #5B9BBF;
     cursor: pointer;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     box-shadow: 0px 0px 1px;
 }
 
@@ -276,7 +276,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     box-shadow: 0px 0px 5px;
 }
 

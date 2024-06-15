@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #091C1E;
+        background-color: #5B9BBF;
         color: white;
     }
 
@@ -32,7 +32,7 @@ body {
     }
 
     #left a:hover {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #left #Payment {
@@ -54,17 +54,17 @@ body {
     }
 
     #hero #navbar #second i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #second #mode i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #third button {
-        border: 1px solid white;
+        border: 2px solid #5B9BBF;
     }
 
     #hero #navbar #Time p {
@@ -88,7 +88,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     /* gap: 25px; */
 }
 
@@ -125,7 +125,7 @@ body {
 
 #left #table {
     background-color: aliceblue;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #left a i {
@@ -134,7 +134,7 @@ body {
 }
 
 #left a:hover {
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #left #premium {
@@ -177,7 +177,7 @@ body {
 #hero #navbar #first #welc {
     font-size: 25px;
     font-weight: bold;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second {
@@ -192,7 +192,7 @@ body {
     width: 160px;
     font-weight: bold;
     font-size: 18px;
-    color: #24315E;
+    color: #5B9BBF;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 10px;
@@ -203,13 +203,13 @@ body {
     border: none;
     border-radius: 50px;
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
     box-shadow: 0px 0px 2px;
 }
 
 #hero #navbar #second #mode i {
     padding: 8px 8px;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second a {
@@ -233,9 +233,9 @@ body {
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid #24315E;
+    border: 1px solid #5B9BBF;
     cursor: pointer;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     box-shadow: 0px 0px 1px;
 }
 
@@ -252,10 +252,10 @@ body {
     align-items: center;
     justify-content: start;
     overflow-y: scroll;
-    /* border: 2px solid #24315E; */
+    /* border: 2px solid #5B9BBF; */
     border-radius: 10px;
     box-shadow: 0px 0px 5px;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
 }
 
 table th,
@@ -271,7 +271,7 @@ table button {
     padding: 10px 18px;
     border: none;
     font-weight: bold;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     color: #d6c7c7;
     cursor: pointer;
     border-radius: 4px;
@@ -279,7 +279,7 @@ table button {
 }
 
 table button:hover {
-    background-color: #24315E;
+    background-color: #5B9BBF;
     color: white;
     box-shadow: 0px 0px 2px;
 }
@@ -290,7 +290,7 @@ table #head {
 }
 
 table th {
-    background-color: #24315E;
+    background-color: #5B9BBF;
     border: 1px solid;
     color: #d6c7c7;
     border-top-left-radius: 8px;
@@ -298,7 +298,7 @@ table th {
 }
 
 table td {
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     border: 1px solid #d6c7c7;
     font-size: 12px;
     font-weight: bold;
@@ -322,15 +322,15 @@ tbody td {
 #bottom button {
     padding: 12px 25px;
     cursor: pointer;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     color: white;
     font-weight: bold;
-    border: 1px solid #24315E;
+    border: 1px solid #5B9BBF;
 }
 
 #bottom button:hover {
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 /*edit form */
@@ -368,14 +368,14 @@ form input {
 
 form #submit {
     padding: 12px;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     color: white;
     cursor: pointer;
 }
 
 form #submit:hover {
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 form h2 {

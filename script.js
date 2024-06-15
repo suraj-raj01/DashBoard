@@ -4,6 +4,17 @@ setInterval(() => {
     t.innerHTML = time.toLocaleTimeString();
 }, 1000);
 
+// alert Message
+function alert()
+{
+    document.getElementById("alert").style.display="block";
+}
+//close function
+function cls()
+{
+    document.getElementById("alert").style.display="none";
+}
+
 // change mode (dark/light)
 function mode() {
     document.body.classList.toggle("mode");
@@ -100,5 +111,7 @@ function editdata() {
 }
 
 $(document).ready(function(){
-    $('#main-content').fadeIn(2000);
+    $('#main-content').slideDown(2000);
+    $('#left').slideDown(2000);
+    $('#navbar').slideDown(2000);
 })

@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #091C1E;
+        background-color: #5B9BBF;
         color: white;
     }
 
@@ -28,11 +28,11 @@ body {
     }
 
     #left a:hover {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #left i:hover {
-        color: #24315E;
+        color: #5B9BBF;
     }
 
     #left #Payment {
@@ -58,17 +58,17 @@ body {
     }
 
     #hero #navbar #second i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #second #mode i {
-        color: #24315E;
+        color: #5B9BBF;
         background-color: white;
     }
 
     #hero #navbar #third button {
-        border: 1px solid white;
+        border: 2px solid #5B9BBF;
     }
 
     #hero #navbar #Time p {
@@ -80,7 +80,7 @@ body {
     }
 
     #hero #main-content form input {
-        background-color: #091C1E;
+        background-color: #5B9BBF;
         border: 1px solid aliceblue;
         color: white;
     }
@@ -102,7 +102,7 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
     /* gap: 25px; */
 }
 
@@ -139,7 +139,7 @@ body {
 
 #left #insert {
     background-color: aliceblue;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #left a i {
@@ -148,7 +148,7 @@ body {
 }
 
 #left a:hover {
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero {
@@ -181,7 +181,7 @@ body {
 #hero #navbar #first #welc {
     font-size: 25px;
     font-weight: bold;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second {
@@ -196,7 +196,7 @@ body {
     width: 160px;
     font-weight: bold;
     font-size: 18px;
-    color: #24315E;
+    color: #5B9BBF;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 8px 10px;
@@ -207,13 +207,13 @@ body {
     border: none;
     border-radius: 50px;
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
     box-shadow: 0px 0px 2px;
 }
 
 #hero #navbar #second #mode i {
     padding: 8px 8px;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #hero #navbar #second a {
@@ -237,9 +237,9 @@ body {
     padding: 9px 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 1px solid #24315E;
+    border: 1px solid #5B9BBF;
     cursor: pointer;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     box-shadow: 0px 0px 1px;
 }
 
@@ -256,7 +256,7 @@ body {
     justify-content: center;
     border-radius: 10px;
     box-shadow: 0px 0px 5px;
-    background-color: #091C1E;
+    background-color: #5B9BBF;
 }
 
 #hero #main-content h3 {
@@ -280,21 +280,24 @@ body {
     font-weight: bold;
     width: 300px;
     background-color: transparent;
-    border: 1px solid gray;
+    border: 1px solid white;
     color: white;
     border-radius: 5px;
+}
+#hero #main-content form input::placeholder{
+    color: white;
 }
 
 #hero #main-content form #submit {
     padding: 12px;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     color: white;
     cursor: pointer;
 }
 
 #hero #main-content form #submit:hover {
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #bottom {
@@ -309,10 +312,10 @@ body {
 #bottom button {
     padding: 12px 25px;
     cursor: pointer;
-    background-color: #24315E;
+    background-color: #5B9BBF;
     color: white;
     font-weight: bold;
-    border: 1px solid #24315E;
+    border: 1px solid #5B9BBF;
 }
 
 #bottom button a {
@@ -321,10 +324,10 @@ body {
 }
 
 #bottom button a:hover {
-    color: #24315E;
+    color: #5B9BBF;
 }
 
 #bottom button:hover {
     background-color: white;
-    color: #24315E;
+    color: #5B9BBF;
 }

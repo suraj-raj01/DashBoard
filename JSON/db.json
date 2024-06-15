@@ -20,27 +20,6 @@
       "address": "BIHAR",
       "course": "BBA",
       "grade": "A"
-    },
-    {
-      "id": "4",
-      "name": "BITTU KUMAR",
-      "address": "BHOPAL",
-      "course": "B.TECH",
-      "grade": "A+"
-    },
-    {
-      "id": "5",
-      "name": "ANKIT KUMAR",
-      "address": "BHOPAL",
-      "course": "BBA",
-      "grade": "A+"
-    },
-    {
-      "id": "6",
-      "name": "AMIT KUMAR",
-      "address": "BIHAR",
-      "course": "B.TECH",
-      "grade": "A"
     }
   ]
 }
