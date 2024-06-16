@@ -272,15 +272,15 @@ table button {
     border: none;
     font-weight: bold;
     background-color: #5B9BBF;
-    color: #d6c7c7;
+    color: white;
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 0px 0px 2px;
 }
 
 table button:hover {
-    background-color: #5B9BBF;
-    color: white;
+    background-color: white;
+    color: #5B9BBF;
     box-shadow: 0px 0px 2px;
 }
 
@@ -290,9 +290,9 @@ table #head {
 }
 
 table th {
-    background-color: #5B9BBF;
+    background-color: white;
     border: 1px solid;
-    color: #d6c7c7;
+    color: #5B9BBF;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -302,7 +302,7 @@ table td {
     border: 1px solid #d6c7c7;
     font-size: 12px;
     font-weight: bold;
-    color: #d6c7c7;
+    color: white;
 }
 
 tbody td {
@@ -337,7 +337,7 @@ tbody td {
 
 form {
     position: fixed;
-    top: 250px;
+    top: 220px;
     height: 360px;
     width: 350px;
     display: flex;
@@ -345,11 +345,11 @@ form {
     align-items: center;
     justify-content: center;
     border: none;
-    box-shadow: 0px 0px 5px #d6c7c7;
+    box-shadow: 0px 0px 5px white;
     padding: 20px 0px;
     border-radius: 10px;
     display: none;
-    background-color: #000000da;
+    background-color: #5b9abfdf;
 }
 
 form input {
@@ -360,10 +360,13 @@ form input {
     font-weight: bold;
     font-size: 12px;
     border-radius: 5px;
-    background-color: #000000da;
+    background-color: #5B9BBF;
     border: 1px solid #d6c7c7;
     outline: none;
-    color: #d6c7c7;
+    color: white;
+}
+form input::placeholder{
+    color: white;
 }
 
 form #submit {
@@ -380,4 +383,20 @@ form #submit:hover {
 
 form h2 {
     color: white;
+}
+
+form #btn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+form #btn:hover{
+    color: black;
 }

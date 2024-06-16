@@ -8,11 +8,16 @@ setInterval(() => {
 function alert()
 {
     document.getElementById("alert").style.display="block";
+    // document.getElementById("myfrm").style.display="block";
 }
 //close function
 function cls()
 {
     document.getElementById("alert").style.display="none";
+}
+function cls1()
+{
+    document.getElementById("myfrm").style.display="none";
 }
 
 // change mode (dark/light)

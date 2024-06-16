@@ -9,17 +9,10 @@
     },
     {
       "id": "2",
-      "name": "RAJAN KUMAR",
+      "name": "MANISH",
       "address": "BIHAR",
-      "course": " B.TECH ",
-      "grade": "A+"
-    },
-    {
-      "id": "3",
-      "name": "HARIOM KUMAR",
-      "address": "BIHAR",
-      "course": "BBA",
-      "grade": "A"
+      "course": "A+",
+      "grade": "B.TECH"
     }
   ]
 }
