@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #5B9BBF;
+        background-color: #000;
         color: white;
     }
 
@@ -76,11 +76,13 @@ body {
     }
 
     #hero #main-content {
+        border: none;
         border: 1px solid aliceblue;
+        background-color: #000;
     }
 
     #hero #main-content form input {
-        background-color: #5B9BBF;
+        background-color: #000;
         border: 1px solid aliceblue;
         color: white;
     }

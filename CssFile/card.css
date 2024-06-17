@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #5B9BBF;
+        background-color: #000;
         color: white;
     }
 
@@ -98,6 +98,9 @@ body {
     #hero #main-content #main-box1 #box2 i {
         background-color: aliceblue;
         color: #5B9BBF;
+    }
+    #hero #main-content{
+        background-color: #000;
     }
 }
 

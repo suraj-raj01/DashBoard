@@ -116,7 +116,7 @@ function editdata() {
 }
 
 $(document).ready(function(){
-    $('#main-content').slideDown(2000);
-    $('#left').slideDown(2000);
-    $('#navbar').slideDown(2000);
+    $('#main-content').slideDown(1000);
+    $('#left').slideDown(1000);
+    $('#navbar').slideDown(1000);
 })

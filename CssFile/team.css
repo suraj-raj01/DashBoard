@@ -19,7 +19,7 @@ body {
 
 .mode {
     #left {
-        background-color: #5B9BBF;
+        background-color: #000;
         color: white;
     }
 
@@ -93,6 +93,9 @@ body {
     #hero #main-content #team button:hover {
         background-color: #5B9BBF;
         color: white;
+    }
+    #hero #main-content #team{
+        background-color: #000;
     }
 }
 
@@ -281,7 +284,7 @@ body {
     padding: 10px;
     background-color: #5B9BBF;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 5px aliceblue;
 }
 
 #hero #main-content #team div {
