@@ -6,6 +6,13 @@
       "address": "BHOPAL",
       "course": "B.TECH",
       "grade": "A+"
+    },
+    {
+      "id": "2",
+      "name": "MANISH KUMAR",
+      "address": "BHOPAL",
+      "course": "B.TECH",
+      "grade": "A+"
     }
   ]
 }

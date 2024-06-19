@@ -173,7 +173,7 @@ body {
 }
 
 #hero #navbar #first {
-    width: 410px;
+    width: 380px;
 }
 
 #hero #navbar #first #welc {
@@ -184,7 +184,7 @@ body {
 }
 
 #hero #navbar #second {
-    width: 90px;
+    width: 130px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -192,7 +192,7 @@ body {
 
 #hero #navbar #Time {
     text-align: center;
-    width: 160px;
+    width: 170px;
     font-weight: bold;
     font-size: 18px;
     color: #5B9BBF;
