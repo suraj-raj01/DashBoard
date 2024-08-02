@@ -2,16 +2,16 @@
   "student": [
     {
       "id": "1",
-      "name": "SURAJ KUMAR",
-      "address": "BHOPAL",
+      "name": "RAJAN KUMAR",
+      "address": "BIHAR",
       "course": "B.TECH",
-      "grade": "A+"
+      "grade": "A"
     },
     {
       "id": "2",
-      "name": "MANISH KUMAR",
+      "name": "HARIOM KUMAR",
       "address": "BHOPAL",
-      "course": "B.TECH",
+      "course": "BBA",
       "grade": "A+"
     }
   ]
